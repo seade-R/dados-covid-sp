@@ -12,15 +12,15 @@ Dúvidas, críticas e sugestões: [leonardobarone@seade.gov.br](leonardobarone@s
 
 Diariamente, a Secretaria de Saúde do Governo do Estado de São Paulo produz uma planilha com dados sobre novos casos e óbitos decorrentes de SARS-COV-2 nos municípios do Estado de São Paulo. A última mais recente  enviada à Fundação SEADE pode ser baixada [aqui].
 
-Os dados podem ser visualizados em (https://www.seade.gov.br/coronavirus/)[https://www.seade.gov.br/coronavirus/], painel mantido pela Fundação SEADE.
+Os dados podem ser visualizados em [https://www.seade.gov.br/coronavirus/](https://www.seade.gov.br/coronavirus/), painel mantido pela Fundação SEADE.
 
 Além disso, a Fundação SEADE disponibiliza os dados planilha em formarto aberto, reorganizados em um arquivo .csv único, com nomes de município padronizados e adicionados do código do IBGE, latitute e longitude.
 
-Faça **Download dos dados** da Fundação SEADE neste [link].
+Faça **Download dos dados** da Fundação SEADE neste [link](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv?token=ABBKW34X4P5J6MPDWZPYTP26S5LVK).
 
 O **Dicionário de dados** está disponível nos formatos [.ods] e [.xlsx].
 
-O **Código em R** para reorganização dos dados neste [link].
+O **Código em R** para reorganização dos dados neste [link](https://github.com/seade-R/dados-covid-sp/blob/master/R/dados_covid_sp.R).
 
 ## Observações
 

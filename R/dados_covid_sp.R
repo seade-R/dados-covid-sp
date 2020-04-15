@@ -1,4 +1,3 @@
-rm(list = ls())
 library(tidyverse)
 library(readxl)
 library(lubridate)
@@ -57,4 +56,4 @@ df <- excel_sheets(arquivo_xlsx) %>%
   full_join(info_munic, by = 'munic')
 
 df %>% 
-  write_csv2('dados_covid_sp.csv')
+  write_csv2('data/dados_covid_sp.csv')
