@@ -1,3 +1,4 @@
+rm(list=ls())
 library(tidyverse)
 library(readxl)
 library(lubridate)
@@ -13,7 +14,7 @@ arquivo_xlsx <- 'data/Municipios informacoes dia.xlsx'
 
 df <- excel_sheets(arquivo_xlsx) %>% 
   map(function(x){
-    tabela <- read_excel(arquivo_xlsx, 7)
+    tabela <- read_excel(arquivo_xlsx, x)
     
     if(length(tabela) < 3) {
       n <- str_which(tabela[[1]], "Cidade")
@@ -48,9 +49,8 @@ df <- excel_sheets(arquivo_xlsx) %>%
              casos = as.numeric(casos),
              obitos = as.numeric(obitos)) %>% 
       filter(!is.na(munic)) %>%
-      filter(munic != 'total') %>% 
-      filter(!is.na(dia))
-    
+      filter(munic != 'total')
+
   })  %>% 
   reduce(bind_rows) %>% 
   full_join(info_munic, by = 'munic')
