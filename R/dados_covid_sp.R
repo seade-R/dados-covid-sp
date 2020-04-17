@@ -8,12 +8,14 @@ remove_acentos <- function(x) iconv(x, to = "ASCII//TRANSLIT")
 
 info_munic <- read_csv2('data/informacoes_municipais_seade.csv') %>% 
   mutate(munic = tolower(munic),
-         munic = remove_acentos(munic))
+         munic = remove_acentos(munic),
+         munic = str_replace_all(munic, '-', ' '))
 
 arquivo_xlsx <- 'data/Municipios informacoes dia.xlsx'
 
 df <- excel_sheets(arquivo_xlsx) %>% 
   map(function(x){
+    x = 16
     tabela <- read_excel(arquivo_xlsx, x)
     
     if(length(tabela) < 3) {
@@ -46,6 +48,8 @@ df <- excel_sheets(arquivo_xlsx) %>%
     tabela <- tabela %>% 
       mutate(munic = tolower(munic),
              munic = remove_acentos(munic),
+             munic = str_replace_all(munic, '-', ' '),
+             munic = str_replace_all(munic, '\\?', ''),
              casos = as.numeric(casos),
              obitos = as.numeric(obitos)) %>% 
       filter(!is.na(munic)) %>%
@@ -53,7 +57,14 @@ df <- excel_sheets(arquivo_xlsx) %>%
 
   })  %>% 
   reduce(bind_rows) %>% 
-  full_join(info_munic, by = 'munic')
+  left_join(info_munic, by = 'munic')
 
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
+
+df %>% 
+  filter(is.na(codigo_ibge)) %>% View
+
+
+df %>% 
+  filter(is.na(dia)) %>% View
