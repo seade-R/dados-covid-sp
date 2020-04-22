@@ -62,9 +62,8 @@ df <- excel_sheets(arquivo_xlsx) %>%
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
 
-df %>% 
-  filter(is.na(codigo_ibge)) %>% View
-
-
-df %>% 
-  filter(is.na(dia)) %>% View
+# df %>% 
+#   filter(is.na(codigo_ibge)) %>% View
+# 
+# df %>% 
+#   filter(is.na(dia)) %>% View
