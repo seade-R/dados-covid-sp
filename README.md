@@ -1,4 +1,4 @@
-# Repositório de dados sobre casos e óbitos decorrentes de SARS-COV-2 nos municípios do Estado de São Paulo
+# Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo
 
 ## Apresentação e dados
 
