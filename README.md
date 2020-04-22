@@ -8,7 +8,7 @@ Para desenvolvedoras e desenvolvedores interessados em utilizar os dados de caso
 
 O **Dicionário de dados** está disponível nos formatos [.ods] e [.xlsx].
 
-Os dados originais podem podem ser baixados [aqui](https://github.com/seade-R/dados-covid-sp/blob/master/data/Municipios%20informacoes%20dia.xlsx).
+Os dados originais podem ser baixados [aqui](https://github.com/seade-R/dados-covid-sp/blob/master/data/Municipios%20informacoes%20dia.xlsx).
 
 O **Código em R** para reorganização dos dados pode ser acessado neste [link](https://github.com/seade-R/dados-covid-sp/blob/master/R/dados_covid_sp.R).
 
