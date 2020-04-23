@@ -15,7 +15,6 @@ arquivo_xlsx <- 'data/Municipios informacoes dia.xlsx'
 
 df <- excel_sheets(arquivo_xlsx) %>% 
   map(function(x){
-    x = 16
     tabela <- read_excel(arquivo_xlsx, x)
     
     if(length(tabela) < 3) {
@@ -62,8 +61,4 @@ df <- excel_sheets(arquivo_xlsx) %>%
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
 
-# df %>% 
-#   filter(is.na(codigo_ibge)) %>% View
-# 
-# df %>% 
-#   filter(is.na(dia)) %>% View
+tail(df)
