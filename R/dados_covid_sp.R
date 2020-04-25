@@ -6,7 +6,7 @@ library(stringr)
 
 remove_acentos <- function(x) iconv(x, to = "ASCII//TRANSLIT")
 
-info_munic <- read_csv2('data/informacoes_municipais_seade.csv') %>% 
+info_munic <- read.csv2('data/informacoes_municipais_seade.csv') %>% 
   mutate(munic = tolower(munic),
          munic = remove_acentos(munic),
          munic = str_replace_all(munic, '-', ' '))
