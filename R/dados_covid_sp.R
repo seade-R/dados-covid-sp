@@ -61,4 +61,3 @@ df <- excel_sheets(arquivo_xlsx) %>%
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
 
-tail(df)
