@@ -52,8 +52,9 @@ df <- excel_sheets(arquivo_xlsx) %>%
              casos = as.numeric(casos),
              obitos = as.numeric(obitos)) %>% 
       filter(!is.na(munic)) %>%
-      filter(munic != 'total')
-
+      filter(munic != 'total') %>% 
+    filter(munic != 'total geral')
+    
   })  %>% 
   reduce(bind_rows) %>% 
   left_join(info_munic, by = 'munic')
@@ -61,3 +62,4 @@ df <- excel_sheets(arquivo_xlsx) %>%
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
 
+tail(df)
