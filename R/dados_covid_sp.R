@@ -54,7 +54,7 @@ df <- excel_sheets(arquivo_xlsx) %>%
       filter(!is.na(munic)) %>%
       filter(munic != 'total') %>% 
     filter(munic != 'total geral')
-    
+
   })  %>% 
   reduce(bind_rows) %>% 
   left_join(info_munic, by = 'munic')
