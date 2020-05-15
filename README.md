@@ -6,8 +6,6 @@ O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronav
 
 Para desenvolvedoras e desenvolvedores interessados em utilizar os dados de casos e óbitos por municípios e data, disponibilizamos a base em arquivo .csv. Faça **Download dos dados** do SEADE neste [link](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
 
-O **Dicionário de dados** está disponível nos formatos [.ods] e [.xlsx] - será atualizado em 22/04/2020, às 22h.
-
 Os dados originais podem ser baixados [aqui](https://github.com/seade-R/dados-covid-sp/blob/master/data/Municipios%20informacoes%20dia.xlsx).
 
 O **Código em R** para reorganização dos dados pode ser acessado neste [link](https://github.com/seade-R/dados-covid-sp/blob/master/R/dados_covid_sp.R).
