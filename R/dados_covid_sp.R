@@ -72,19 +72,44 @@ df <- excel_sheets(arquivo_xlsx) %>%
               filter(grafia_correta == 1) %>% 
               select(codigo_ibge, munic),
             by = 'codigo_ibge') %>% 
-  select(munic, casos, obitos, dia, mes, codigo_ibge, latitude, longitude)
+  select(munic, casos, obitos, dia, mes, codigo_ibge, latitude, longitude) %>% 
+  mutate(casos = replace(casos, is.na(casos), 0),
+         obitos = replace(obitos, is.na(obitos), 0))
+
+df <- df %>% 
+  left_join(
+    read_csv2('data/ra.csv') %>% 
+      select(-munic), 
+    by = 'codigo_ibge') %>% 
+  left_join(
+    read.csv2('data/imp.csv', fileEncoding = 'Latin2', )[,c(1, 3,10)] %>% 
+      rename(codigo_ibge = `Cód..IBGE`, pop = `Populaçăo.`, nome_munic = Localidades),
+    by = 'codigo_ibge') %>% 
+  left_join(
+    read_csv2('data/drs.csv') %>% 
+      select(-cod_ra), 
+    by = 'codigo_ibge') %>% 
+  left_join(
+    read_csv2('data/nome_drs.csv'), 
+    by = 'cod_drs') %>% 
+  mutate(datahora = make_date(year = '2020', month = mes, day = dia)) %>%
+  select(-map_mun, munic) %>% 
+  mutate(map_leg = cut(x = casos,
+                       breaks = c(-Inf, 0, 9, 24, 49, 74, 99, 149, Inf),
+                       labels = c('0', '<10', '<25', '<50', '<75', '<100', '<150', '>150')),
+         map_leg_s = cut(x = casos,
+                         breaks = c(-Inf, 0, 9, 24, 49, 74, 99, 149, Inf),
+                         labels = c(8:1)),
+         letalidade = obitos / casos ) %>% 
+  filter(!is.na(codigo_ibge)) %>% 
+  select(nome_munic, codigo_ibge, dia, mes, datahora, casos, obitos, letalidade, 
+         nome_ra, cod_ra, nome_drs, cod_drs, pop, map_leg, map_leg_s,
+         latitude, longitude, pop)
   
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
 
-tail(df)
-
 df %>% 
-  filter(is.na(codigo_ibge)) %>% 
-  filter(munic != 'ignorado', 
-         munic != 'outro estado',
-         munic != 'outros estados',
-         munic != 'outro pais',
-         munic != 'outros paises',
-         munic != 'ignorado ou exterior') %>% 
-  View
+  write.csv2('data/dados_covid_sp_latin2.csv', row.names = F, fileEncoding = 'Latin2')
+
+tail(df)

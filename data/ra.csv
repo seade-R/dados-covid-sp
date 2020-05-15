@@ -1,0 +1,646 @@
+codigo_ibge;munic;nome_ra;cod_ra
+3505401;Barra do Turvo;RA de Registro;16
+3509254;Cajati;RA de Registro;16
+3509908;Cananéia;RA de Registro;16
+3514809;Eldorado;RA de Registro;16
+3520301;Iguape;RA de Registro;16
+3520426;Ilha Comprida;RA de Registro;16
+3523305;Itariri;RA de Registro;16
+3524600;Jacupiranga;RA de Registro;16
+3526100;Juquiá;RA de Registro;16
+3529906;Miracatu;RA de Registro;16
+3536208;Pariquera-Açu;RA de Registro;16
+3537206;Pedro de Toledo;RA de Registro;16
+3542602;Registro;RA de Registro;16
+3551801;Sete Barras;RA de Registro;16
+3506359;Bertioga;RA de Santos;12
+3513504;Cubatão;RA de Santos;12
+3518701;Guarujá;RA de Santos;12
+3522109;Itanhaém;RA de Santos;12
+3531100;Mongaguá;RA de Santos;12
+3537602;Peruíbe;RA de Santos;12
+3541000;Praia Grande;RA de Santos;12
+3548500;Santos;RA de Santos;12
+3551009;São Vicente;RA de Santos;12
+3502507;Aparecida;RA de São José dos Campos;15
+3503158;Arapeí;RA de São José dos Campos;15
+3503505;Areias;RA de São José dos Campos;15
+3504909;Bananal;RA de São José dos Campos;15
+3508603;Cachoeira Paulista;RA de São José dos Campos;15
+3509700;Campos do Jordão;RA de São José dos Campos;15
+3509957;Canas;RA de São José dos Campos;15
+3510500;Caraguatatuba;RA de São José dos Campos;15
+3508504;Caçapava;RA de São José dos Campos;15
+3513405;Cruzeiro;RA de São José dos Campos;15
+3513603;Cunha;RA de São José dos Campos;15
+3518404;Guaratinguetá;RA de São José dos Campos;15
+3520202;Igaratá;RA de São José dos Campos;15
+3520400;Ilhabela;RA de São José dos Campos;15
+3524402;Jacareí;RA de São José dos Campos;15
+3524907;Jambeiro;RA de São José dos Campos;15
+3526308;Lagoinha;RA de São José dos Campos;15
+3526605;Lavrinhas;RA de São José dos Campos;15
+3527207;Lorena;RA de São José dos Campos;15
+3531704;Monteiro Lobato;RA de São José dos Campos;15
+3532306;Natividade da Serra;RA de São José dos Campos;15
+3535606;Paraibuna;RA de São José dos Campos;15
+3538006;Pindamonhangaba;RA de São José dos Campos;15
+3538501;Piquete;RA de São José dos Campos;15
+3540754;Potim;RA de São José dos Campos;15
+3541901;Queluz;RA de São José dos Campos;15
+3542305;Redenção da Serra;RA de São José dos Campos;15
+3544301;Roseira;RA de São José dos Campos;15
+3546009;Santa Branca;RA de São José dos Campos;15
+3548203;Santo Antônio do Pinhal;RA de São José dos Campos;15
+3548609;São Bento do Sapucaí;RA de São José dos Campos;15
+3549607;São José do Barreiro;RA de São José dos Campos;15
+3549904;São José dos Campos;RA de São José dos Campos;15
+3550001;São Luiz do Paraitinga;RA de São José dos Campos;15
+3550704;São Sebastião;RA de São José dos Campos;15
+3552007;Silveiras;RA de São José dos Campos;15
+3554102;Taubaté;RA de São José dos Campos;15
+3554805;Tremembé;RA de São José dos Campos;15
+3555406;Ubatuba;RA de São José dos Campos;15
+3500550;Águas de Santa Bárbara;RA de Sorocaba;13
+3500758;Alambari;RA de Sorocaba;13
+3501152;Alumínio;RA de Sorocaba;13
+3502309;Anhembi;RA de Sorocaba;13
+3502754;Araçariguama;RA de Sorocaba;13
+3502903;Araçoiaba da Serra;RA de Sorocaba;13
+3503604;Areiópolis;RA de Sorocaba;13
+3504503;Avaré;RA de Sorocaba;13
+3506904;Bofete;RA de Sorocaba;13
+3507001;Boituva;RA de Sorocaba;13
+3507506;Botucatu;RA de Sorocaba;13
+3510302;Capela do Alto;RA de Sorocaba;13
+3511409;Cerqueira César;RA de Sorocaba;13
+3511508;Cerquilho;RA de Sorocaba;13
+3511607;Cesário Lange;RA de Sorocaba;13
+3512308;Conchas;RA de Sorocaba;13
+3518503;Guareí;RA de Sorocaba;13
+3519253;Iaras;RA de Sorocaba;13
+3519709;Ibiúna;RA de Sorocaba;13
+3521002;Iperó;RA de Sorocaba;13
+3522307;Itapetininga;RA de Sorocaba;13
+3523503;Itatinga;RA de Sorocaba;13
+3523909;Itu;RA de Sorocaba;13
+3525854;Jumirim;RA de Sorocaba;13
+3526407;Laranjal Paulista;RA de Sorocaba;13
+3528403;Mairinque;RA de Sorocaba;13
+3528601;Manduri;RA de Sorocaba;13
+3536109;Pardinho;RA de Sorocaba;13
+3537503;Pereiras;RA de Sorocaba;13
+3537800;Piedade;RA de Sorocaba;13
+3537909;Pilar do Sul;RA de Sorocaba;13
+3540507;Porangaba;RA de Sorocaba;13
+3540606;Porto Feliz;RA de Sorocaba;13
+3541059;Pratânia;RA de Sorocaba;13
+3541653;Quadra;RA de Sorocaba;13
+3545209;Salto;RA de Sorocaba;13
+3545308;Salto de Pirapora;RA de Sorocaba;13
+3550100;São Manuel;RA de Sorocaba;13
+3550209;São Miguel Arcanjo;RA de Sorocaba;13
+3550605;São Roque;RA de Sorocaba;13
+3551108;Sarapuí;RA de Sorocaba;13
+3552205;Sorocaba;RA de Sorocaba;13
+3553500;Tapiraí;RA de Sorocaba;13
+3554003;Tatuí;RA de Sorocaba;13
+3554508;Tietê;RA de Sorocaba;13
+3554656;Torre de Pedra;RA de Sorocaba;13
+3557006;Votorantim;RA de Sorocaba;13
+3500303;Aguaí;RA de Campinas;4
+3500402;Águas da Prata;RA de Campinas;4
+3500501;Águas de Lindóia;RA de Campinas;4
+3500600;Águas de São Pedro;RA de Campinas;4
+3501608;Americana;RA de Campinas;4
+3501905;Amparo;RA de Campinas;4
+3502002;Analândia;RA de Campinas;4
+3503307;Araras;RA de Campinas;4
+3503802;Artur Nogueira;RA de Campinas;4
+3504107;Atibaia;RA de Campinas;4
+3507100;Bom Jesus dos Perdões;RA de Campinas;4
+3507605;Bragança Paulista;RA de Campinas;4
+3507902;Brotas;RA de Campinas;4
+3508405;Cabreúva;RA de Campinas;4
+3508702;Caconde;RA de Campinas;4
+3509502;Campinas;RA de Campinas;4
+3509601;Campo Limpo Paulista;RA de Campinas;4
+3510401;Capivari;RA de Campinas;4
+3510807;Casa Branca;RA de Campinas;4
+3511706;Charqueada;RA de Campinas;4
+3512209;Conchal;RA de Campinas;4
+3512407;Cordeirópolis;RA de Campinas;4
+3512704;Corumbataí;RA de Campinas;4
+3512803;Cosmópolis;RA de Campinas;4
+3513900;Divinolândia;RA de Campinas;4
+3514908;Elias Fausto;RA de Campinas;4
+3515152;Engenheiro Coelho;RA de Campinas;4
+3515186;Espírito Santo do Pinhal;RA de Campinas;4
+3557303;Estiva Gerbi;RA de Campinas;4
+3519055;Holambra;RA de Campinas;4
+3519071;Hortolândia;RA de Campinas;4
+3520509;Indaiatuba;RA de Campinas;4
+3521101;Ipeúna;RA de Campinas;4
+3521408;Iracemápolis;RA de Campinas;4
+3522604;Itapira;RA de Campinas;4
+3523404;Itatiba;RA de Campinas;4
+3523602;Itirapina;RA de Campinas;4
+3523800;Itobi;RA de Campinas;4
+3524006;Itupeva;RA de Campinas;4
+3524709;Jaguariúna;RA de Campinas;4
+3525201;Jarinu;RA de Campinas;4
+3525508;Joanópolis;RA de Campinas;4
+3525904;Jundiaí;RA de Campinas;4
+3526704;Leme;RA de Campinas;4
+3526902;Limeira;RA de Campinas;4
+3527009;Lindóia;RA de Campinas;4
+3527306;Louveira;RA de Campinas;4
+3530508;Mococa;RA de Campinas;4
+3530706;Mogi Guaçu;RA de Campinas;4
+3530805;Mogi Mirim;RA de Campinas;4
+3530904;Mombuca;RA de Campinas;4
+3531209;Monte Alegre do Sul;RA de Campinas;4
+3531803;Monte Mor;RA de Campinas;4
+3532009;Morungaba;RA de Campinas;4
+3532405;Nazaré Paulista;RA de Campinas;4
+3533403;Nova Odessa;RA de Campinas;4
+3536505;Paulínia;RA de Campinas;4
+3536802;Pedra Bela;RA de Campinas;4
+3537107;Pedreira;RA de Campinas;4
+3538204;Pinhalzinho;RA de Campinas;4
+3538600;Piracaia;RA de Campinas;4
+3538709;Piracicaba;RA de Campinas;4
+3539301;Pirassununga;RA de Campinas;4
+3542107;Rafard;RA de Campinas;4
+3543907;Rio Claro;RA de Campinas;4
+3544004;Rio das Pedras;RA de Campinas;4
+3545159;Saltinho;RA de Campinas;4
+3545803;Santa Bárbara d'Oeste;RA de Campinas;4
+3546207;Santa Cruz da Conceição;RA de Campinas;4
+3546306;Santa Cruz das Palmeiras;RA de Campinas;4
+3546702;Santa Gertrudes;RA de Campinas;4
+3547007;Santa Maria da Serra;RA de Campinas;4
+3548005;Santo Antônio de Posse;RA de Campinas;4
+3548104;Santo Antônio do Jardim;RA de Campinas;4
+3549102;São João da Boa Vista;RA de Campinas;4
+3549706;São José do Rio Pardo;RA de Campinas;4
+3550407;São Pedro;RA de Campinas;4
+3550803;São Sebastião da Grama;RA de Campinas;4
+3551603;Serra Negra;RA de Campinas;4
+3552106;Socorro;RA de Campinas;4
+3552403;Sumaré;RA de Campinas;4
+3553302;Tambaú;RA de Campinas;4
+3553609;Tapiratiba;RA de Campinas;4
+3554706;Torrinha;RA de Campinas;4
+3554953;Tuiuti;RA de Campinas;4
+3556206;Valinhos;RA de Campinas;4
+3556354;Vargem;RA de Campinas;4
+3556404;Vargem Grande do Sul;RA de Campinas;4
+3556503;Várzea Paulista;RA de Campinas;4
+3556701;Vinhedo;RA de Campinas;4
+3501004;Altinópolis;RA de Ribeirão Preto;11
+3505609;Barrinha;RA de Ribeirão Preto;11
+3507803;Brodowski;RA de Ribeirão Preto;11
+3509403;Cajuru;RA de Ribeirão Preto;11
+3510906;Cássia dos Coqueiros;RA de Ribeirão Preto;11
+3513108;Cravinhos;RA de Ribeirão Preto;11
+3514601;Dumont;RA de Ribeirão Preto;11
+3518602;Guariba;RA de Ribeirão Preto;11
+3518859;Guatapará;RA de Ribeirão Preto;11
+3524303;Jaboticabal;RA de Ribeirão Preto;11
+3525102;Jardinópolis;RA de Ribeirão Preto;11
+3527603;Luís Antônio;RA de Ribeirão Preto;11
+3531308;Monte Alto;RA de Ribeirão Preto;11
+3539509;Pitangueiras;RA de Ribeirão Preto;11
+3540200;Pontal;RA de Ribeirão Preto;11
+3540903;Pradópolis;RA de Ribeirão Preto;11
+3543402;Ribeirão Preto;RA de Ribeirão Preto;11
+3546256;Santa Cruz da Esperança;RA de Ribeirão Preto;11
+3547601;Santa Rosa de Viterbo;RA de Ribeirão Preto;11
+3547908;Santo Antônio da Alegria;RA de Ribeirão Preto;11
+3550902;São Simão;RA de Ribeirão Preto;11
+3551405;Serra Azul;RA de Ribeirão Preto;11
+3551504;Serrana;RA de Ribeirão Preto;11
+3551702;Sertãozinho;RA de Ribeirão Preto;11
+3553658;Taquaral;RA de Ribeirão Preto;11
+3500709;Agudos;RA de Bauru;3
+3503406;Arealva;RA de Bauru;3
+3504305;Avaí;RA de Bauru;3
+3504701;Balbinos;RA de Bauru;3
+3505203;Bariri;RA de Bauru;3
+3505302;Barra Bonita;RA de Bauru;3
+3506003;Bauru;RA de Bauru;3
+3506805;Bocaina;RA de Bauru;3
+3507308;Boracéia;RA de Bauru;3
+3507456;Borebi;RA de Bauru;3
+3508306;Cabrália Paulista;RA de Bauru;3
+3508801;Cafelândia;RA de Bauru;3
+3514106;Dois Córregos;RA de Bauru;3
+3514502;Duartina;RA de Bauru;3
+3517000;Getulina;RA de Bauru;3
+3517307;Guaimbê;RA de Bauru;3
+3517208;Guaiçara;RA de Bauru;3
+3518107;Guarantã;RA de Bauru;3
+3519105;Iacanga;RA de Bauru;3
+3520004;Igaraçu do Tietê;RA de Bauru;3
+3522000;Itaju;RA de Bauru;3
+3522901;Itapuí;RA de Bauru;3
+3525300;Jaú;RA de Bauru;3
+3526803;Lençóis Paulista;RA de Bauru;3
+3527108;Lins;RA de Bauru;3
+3527504;Lucianópolis;RA de Bauru;3
+3528007;Macatuba;RA de Bauru;3
+3529807;Mineiros do Tietê;RA de Bauru;3
+3536570;Paulistânia;RA de Bauru;3
+3536703;Pederneiras;RA de Bauru;3
+3538907;Pirajuí;RA de Bauru;3
+3539400;Piratininga;RA de Bauru;3
+3540101;Pongaí;RA de Bauru;3
+3541109;Presidente Alves;RA de Bauru;3
+3541604;Promissão;RA de Bauru;3
+3542503;Reginópolis;RA de Bauru;3
+3544608;Sabino;RA de Bauru;3
+3555505;Ubirajara;RA de Bauru;3
+3555901;Uru;RA de Bauru;3
+3500204;Adolfo;RA de São José do Rio Preto;14
+3501202;Álvares Florence;RA de São José do Rio Preto;14
+3501806;Américo de Campos;RA de São José do Rio Preto;14
+3502606;Aparecida d'Oeste;RA de São José do Rio Preto;14
+3503703;Ariranha;RA de São José do Rio Preto;14
+3503950;Aspásia;RA de São José do Rio Preto;14
+3504602;Bady Bassitt;RA de São José do Rio Preto;14
+3504800;Bálsamo;RA de São José do Rio Preto;14
+3510708;Cardoso;RA de São José do Rio Preto;14
+3511102;Catanduva;RA de São José do Rio Preto;14
+3511201;Catiguá;RA de São José do Rio Preto;14
+3511300;Cedral;RA de São José do Rio Preto;14
+3512902;Cosmorama;RA de São José do Rio Preto;14
+3513850;Dirce Reis;RA de São José do Rio Preto;14
+3514205;Dolcinópolis;RA de São José do Rio Preto;14
+3514924;Elisiário;RA de São José do Rio Preto;14
+3515202;Estrela d'Oeste;RA de São José do Rio Preto;14
+3515509;Fernandópolis;RA de São José do Rio Preto;14
+3515905;Floreal;RA de São José do Rio Preto;14
+3517505;Guapiaçu;RA de São José do Rio Preto;14
+3518008;Guarani d'Oeste;RA de São José do Rio Preto;14
+3519402;Ibirá;RA de São José do Rio Preto;14
+3519808;Icém;RA de São José do Rio Preto;14
+3520707;Indiaporã;RA de São José do Rio Preto;14
+3521150;Ipiguá;RA de São José do Rio Preto;14
+3521507;Irapuã;RA de São José do Rio Preto;14
+3521903;Itajobi;RA de São José do Rio Preto;14
+3524501;Jaci;RA de São José do Rio Preto;14
+3524808;Jales;RA de São José do Rio Preto;14
+3525706;José Bonifácio;RA de São José do Rio Preto;14
+3528106;Macaubal;RA de São José do Rio Preto;14
+3528205;Macedônia;RA de São José do Rio Preto;14
+3528304;Magda;RA de São José do Rio Preto;14
+3528858;Marapoama;RA de São José do Rio Preto;14
+3529104;Marinópolis;RA de São José do Rio Preto;14
+3529500;Mendonça;RA de São José do Rio Preto;14
+3529609;Meridiano;RA de São José do Rio Preto;14
+3529658;Mesópolis;RA de São José do Rio Preto;14
+3530003;Mira Estrela;RA de São José do Rio Preto;14
+3530300;Mirassol;RA de São José do Rio Preto;14
+3530409;Mirassolândia;RA de São José do Rio Preto;14
+3531407;Monte Aprazível;RA de São José do Rio Preto;14
+3531001;Monções;RA de São José do Rio Preto;14
+3532504;Neves Paulista;RA de São José do Rio Preto;14
+3532603;Nhandeara;RA de São José do Rio Preto;14
+3532702;Nipoã;RA de São José do Rio Preto;14
+3532801;Nova Aliança;RA de São José do Rio Preto;14
+3532843;Nova Canaã Paulista;RA de São José do Rio Preto;14
+3533007;Nova Granada;RA de São José do Rio Preto;14
+3533254;Novais;RA de São José do Rio Preto;14
+3533502;Novo Horizonte;RA de São José do Rio Preto;14
+3534005;Onda Verde;RA de São José do Rio Preto;14
+3534203;Orindiúva;RA de São José do Rio Preto;14
+3534757;Ouroeste;RA de São José do Rio Preto;14
+3535002;Palestina;RA de São José do Rio Preto;14
+3535101;Palmares Paulista;RA de São José do Rio Preto;14
+3535200;Palmeira d'Oeste;RA de São José do Rio Preto;14
+3535705;Paraíso;RA de São José do Rio Preto;14
+3535903;Paranapuã;RA de São José do Rio Preto;14
+3536257;Parisi;RA de São José do Rio Preto;14
+3536604;Paulo de Faria;RA de São José do Rio Preto;14
+3536901;Pedranópolis;RA de São José do Rio Preto;14
+3538105;Pindorama;RA de São José do Rio Preto;14
+3539608;Planalto;RA de São José do Rio Preto;14
+3539905;Poloni;RA de São José do Rio Preto;14
+3540259;Pontalinda;RA de São José do Rio Preto;14
+3540309;Pontes Gestal;RA de São José do Rio Preto;14
+3540408;Populina;RA de São José do Rio Preto;14
+3540804;Potirendaba;RA de São José do Rio Preto;14
+3544202;Riolândia;RA de São José do Rio Preto;14
+3544509;Rubinéia;RA de São José do Rio Preto;14
+3544806;Sales;RA de São José do Rio Preto;14
+3545605;Santa Adélia;RA de São José do Rio Preto;14
+3545704;Santa Albertina;RA de São José do Rio Preto;14
+3546108;Santa Clara d'Oeste;RA de São José do Rio Preto;14
+3546603;Santa Fé do Sul;RA de São José do Rio Preto;14
+3547403;Santa Rita d'Oeste;RA de São José do Rio Preto;14
+3547650;Santa Salete;RA de São José do Rio Preto;14
+3547205;Santana da Ponte Pensa;RA de São José do Rio Preto;14
+3549003;São Francisco;RA de São José do Rio Preto;14
+3549201;São João das Duas Pontes;RA de São José do Rio Preto;14
+3549805;São José do Rio Preto;RA de São José do Rio Preto;14
+3551306;Sebastianópolis do Sul;RA de São José do Rio Preto;14
+3552601;Tabapuã;RA de São José do Rio Preto;14
+3553401;Tanabi;RA de São José do Rio Preto;14
+3554904;Três Fronteiras;RA de São José do Rio Preto;14
+3555307;Turmalina;RA de São José do Rio Preto;14
+3555356;Ubarana;RA de São José do Rio Preto;14
+3555604;Uchoa;RA de São José do Rio Preto;14
+3555703;União Paulista;RA de São José do Rio Preto;14
+3555802;Urânia;RA de São José do Rio Preto;14
+3556008;Urupês;RA de São José do Rio Preto;14
+3556107;Valentim Gentil;RA de São José do Rio Preto;14
+3556958;Vitória Brasil;RA de São José do Rio Preto;14
+3557105;Votuporanga;RA de São José do Rio Preto;14
+3557154;Zacarias;RA de São José do Rio Preto;14
+3501103;Alto Alegre;RA de Araçatuba;1
+3502101;Andradina;RA de Araçatuba;1
+3502804;Araçatuba;RA de Araçatuba;1
+3504206;Auriflama;RA de Araçatuba;1
+3504404;Avanhandava;RA de Araçatuba;1
+3505104;Barbosa;RA de Araçatuba;1
+3506201;Bento de Abreu;RA de Araçatuba;1
+3506409;Bilac;RA de Araçatuba;1
+3506508;Birigui;RA de Araçatuba;1
+3507704;Braúna;RA de Araçatuba;1
+3507753;Brejo Alegre;RA de Araçatuba;1
+3508108;Buritama;RA de Araçatuba;1
+3511003;Castilho;RA de Araçatuba;1
+3511904;Clementina;RA de Araçatuba;1
+3512506;Coroados;RA de Araçatuba;1
+3516507;Gabriel Monteiro;RA de Araçatuba;1
+3516804;Gastão Vidigal;RA de Araçatuba;1
+3516903;General Salgado;RA de Araçatuba;1
+3517109;Glicério;RA de Araçatuba;1
+3518206;Guararapes;RA de Araçatuba;1
+3517802;Guaraçaí;RA de Araçatuba;1
+3518909;Guzolândia;RA de Araçatuba;1
+3520442;Ilha Solteira;RA de Araçatuba;1
+3523008;Itapura;RA de Araçatuba;1
+3526506;Lavínia;RA de Araçatuba;1
+3527256;Lourdes;RA de Araçatuba;1
+3527702;Luiziânia;RA de Araçatuba;1
+3530102;Mirandópolis;RA de Araçatuba;1
+3532108;Murutinga do Sul;RA de Araçatuba;1
+3532868;Nova Castilho;RA de Araçatuba;1
+3533205;Nova Independência;RA de Araçatuba;1
+3533304;Nova Luzitânia;RA de Araçatuba;1
+3537305;Penápolis;RA de Araçatuba;1
+3537404;Pereira Barreto;RA de Araçatuba;1
+3537701;Piacatu;RA de Araçatuba;1
+3544400;Rubiácea;RA de Araçatuba;1
+3548054;Santo Antônio do Aracanguá;RA de Araçatuba;1
+3548401;Santópolis do Aguapeí;RA de Araçatuba;1
+3549250;São João de Iracema;RA de Araçatuba;1
+3552304;Sud Mennucci;RA de Araçatuba;1
+3552551;Suzanápolis;RA de Araçatuba;1
+3555208;Turiúba;RA de Araçatuba;1
+3556305;Valparaíso;RA de Araçatuba;1
+3500105;Adamantina;RA de Presidente Prudente;9
+3500808;Alfredo Marcondes;RA de Presidente Prudente;9
+3501301;Álvares Machado;RA de Presidente Prudente;9
+3502408;Anhumas;RA de Presidente Prudente;9
+3508900;Caiabu;RA de Presidente Prudente;9
+3509106;Caiuá;RA de Presidente Prudente;9
+3514403;Dracena;RA de Presidente Prudente;9
+3515129;Emilianópolis;RA de Presidente Prudente;9
+3515301;Estrela do Norte;RA de Presidente Prudente;9
+3515350;Euclides da Cunha Paulista;RA de Presidente Prudente;9
+3515806;Flora Rica;RA de Presidente Prudente;9
+3516002;Flórida Paulista;RA de Presidente Prudente;9
+3519907;Iepê;RA de Presidente Prudente;9
+3520608;Indiana;RA de Presidente Prudente;9
+3520806;Inúbia Paulista;RA de Presidente Prudente;9
+3521606;Irapuru;RA de Presidente Prudente;9
+3526001;Junqueirópolis;RA de Presidente Prudente;9
+3527405;Lucélia;RA de Presidente Prudente;9
+3528700;Marabá Paulista;RA de Presidente Prudente;9
+3528908;Mariápolis;RA de Presidente Prudente;9
+3529203;Martinópolis;RA de Presidente Prudente;9
+3530201;Mirante do Paranapanema;RA de Presidente Prudente;9
+3531605;Monte Castelo;RA de Presidente Prudente;9
+3532157;Nantes;RA de Presidente Prudente;9
+3532207;Narandiba;RA de Presidente Prudente;9
+3533106;Nova Guataporanga;RA de Presidente Prudente;9
+3534609;Osvaldo Cruz;RA de Presidente Prudente;9
+3534807;Ouro Verde;RA de Presidente Prudente;9
+3534906;Pacaembu;RA de Presidente Prudente;9
+3535408;Panorama;RA de Presidente Prudente;9
+3536406;Paulicéia;RA de Presidente Prudente;9
+3538303;Piquerobi;RA de Presidente Prudente;9
+3539202;Pirapozinho;RA de Presidente Prudente;9
+3540853;Pracinha;RA de Presidente Prudente;9
+3541208;Presidente Bernardes;RA de Presidente Prudente;9
+3541307;Presidente Epitácio;RA de Presidente Prudente;9
+3541406;Presidente Prudente;RA de Presidente Prudente;9
+3541505;Presidente Venceslau;RA de Presidente Prudente;9
+3542206;Rancharia;RA de Presidente Prudente;9
+3542404;Regente Feijó;RA de Presidente Prudente;9
+3543238;Ribeirão dos Índios;RA de Presidente Prudente;9
+3544251;Rosana;RA de Presidente Prudente;9
+3544707;Sagres;RA de Presidente Prudente;9
+3545100;Salmourão;RA de Presidente Prudente;9
+3545506;Sandovalina;RA de Presidente Prudente;9
+3547106;Santa Mercedes;RA de Presidente Prudente;9
+3547700;Santo Anastácio;RA de Presidente Prudente;9
+3548302;Santo Expedito;RA de Presidente Prudente;9
+3549300;São João do Pau d'Alho;RA de Presidente Prudente;9
+3552908;Taciba;RA de Presidente Prudente;9
+3553906;Tarabai;RA de Presidente Prudente;9
+3554300;Teodoro Sampaio;RA de Presidente Prudente;9
+3555109;Tupi Paulista;RA de Presidente Prudente;9
+3501400;Álvaro de Carvalho;RA de Marília;8
+3501509;Alvinlândia;RA de Marília;8
+3503356;Arco-Íris;RA de Marília;8
+3504008;Assis;RA de Marília;8
+3505807;Bastos;RA de Marília;8
+3506300;Bernardino de Campos;RA de Marília;8
+3507209;Borá;RA de Marília;8
+3509809;Campos Novos Paulista;RA de Marília;8
+3510005;Cândido Mota;RA de Marília;8
+3510153;Canitar;RA de Marília;8
+3557204;Chavantes;RA de Marília;8
+3513306;Cruzália;RA de Marília;8
+3514700;Echaporã;RA de Marília;8
+3515194;Espírito Santo do Turvo;RA de Marília;8
+3515657;Fernão;RA de Marília;8
+3516101;Florínea;RA de Marília;8
+3516606;Gália;RA de Marília;8
+3516705;Garça;RA de Marília;8
+3519006;Herculândia;RA de Marília;8
+3519204;Iacri;RA de Marília;8
+3519501;Ibirarema;RA de Marília;8
+3520905;Ipaussu;RA de Marília;8
+3525607;João Ramalho;RA de Marília;8
+3525805;Júlio Mesquita;RA de Marília;8
+3527801;Lupércio;RA de Marília;8
+3527900;Lutécia;RA de Marília;8
+3528809;Maracaí;RA de Marília;8
+3529005;Marília;RA de Marília;8
+3533700;Ocauçu;RA de Marília;8
+3533809;Óleo;RA de Marília;8
+3534104;Oriente;RA de Marília;8
+3534500;Oscar Bressane;RA de Marília;8
+3534708;Ourinhos;RA de Marília;8
+3535309;Palmital;RA de Marília;8
+3535507;Paraguaçu Paulista;RA de Marília;8
+3536000;Parapuã;RA de Marília;8
+3537156;Pedrinhas Paulista;RA de Marília;8
+3539707;Platina;RA de Marília;8
+3540002;Pompéia;RA de Marília;8
+3541703;Quatá;RA de Marília;8
+3541802;Queiroz;RA de Marília;8
+3542008;Quintana;RA de Marília;8
+3543204;Ribeirão do Sul;RA de Marília;8
+3543808;Rinópolis;RA de Marília;8
+3545407;Salto Grande;RA de Marília;8
+3546405;Santa Cruz do Rio Pardo;RA de Marília;8
+3550506;São Pedro do Turvo;RA de Marília;8
+3553955;Tarumã;RA de Marília;8
+3554607;Timburi;RA de Marília;8
+3555000;Tupã;RA de Marília;8
+3556602;Vera Cruz;RA de Marília;8
+3501707;Américo Brasiliense;RA Central;5
+3503208;Araraquara;RA Central;5
+3506706;Boa Esperança do Sul;RA Central;5
+3507407;Borborema;RA Central;5
+3510104;Cândido Rodrigues;RA Central;5
+3513702;Descalvado;RA Central;5
+3514007;Dobrada;RA Central;5
+3514304;Dourado;RA Central;5
+3515608;Fernando Prestes;RA Central;5
+3516853;Gavião Peixoto;RA Central;5
+3519303;Ibaté;RA Central;5
+3519600;Ibitinga;RA Central;5
+3522703;Itápolis;RA Central;5
+3529302;Matão;RA Central;5
+3532058;Motuca;RA Central;5
+3532900;Nova Europa;RA Central;5
+3540705;Porto Ferreira;RA Central;5
+3542909;Ribeirão Bonito;RA Central;5
+3543709;Rincão;RA Central;5
+3546504;Santa Ernestina;RA Central;5
+3546900;Santa Lúcia;RA Central;5
+3547502;Santa Rita do Passa Quatro;RA Central;5
+3548906;São Carlos;RA Central;5
+3552700;Tabatinga;RA Central;5
+3553708;Taquaritinga;RA Central;5
+3554755;Trabiju;RA Central;5
+3500907;Altair;RA de Barretos;2
+3505500;Barretos;RA de Barretos;2
+3506102;Bebedouro;RA de Barretos;2
+3509304;Cajobi;RA de Barretos;2
+3512001;Colina;RA de Barretos;2
+3512100;Colômbia;RA de Barretos;2
+3514957;Embaúba;RA de Barretos;2
+3517406;Guaíra;RA de Barretos;2
+3517901;Guaraci;RA de Barretos;2
+3524204;Jaborandi;RA de Barretos;2
+3531506;Monte Azul Paulista;RA de Barretos;2
+3533908;Olímpia;RA de Barretos;2
+3539004;Pirangi;RA de Barretos;2
+3551900;Severínia;RA de Barretos;2
+3553104;Taiaçu;RA de Barretos;2
+3553203;Taiúva;RA de Barretos;2
+3554409;Terra Roxa;RA de Barretos;2
+3556800;Viradouro;RA de Barretos;2
+3556909;Vista Alegre do Alto;RA de Barretos;2
+3503000;Aramina;RA de Franca;6
+3505906;Batatais;RA de Franca;6
+3508207;Buritizal;RA de Franca;6
+3513207;Cristais Paulista;RA de Franca;6
+3516200;Franca;RA de Franca;6
+3517703;Guará;RA de Franca;6
+3520103;Igarapava;RA de Franca;6
+3521309;Ipuã;RA de Franca;6
+3523701;Itirapuã;RA de Franca;6
+3524105;Ituverava;RA de Franca;6
+3525409;Jeriquara;RA de Franca;6
+3529708;Miguelópolis;RA de Franca;6
+3531902;Morro Agudo;RA de Franca;6
+3533601;Nuporanga;RA de Franca;6
+3534302;Orlândia;RA de Franca;6
+3536307;Patrocínio Paulista;RA de Franca;6
+3537008;Pedregulho;RA de Franca;6
+3542701;Restinga;RA de Franca;6
+3543105;Ribeirão Corrente;RA de Franca;6
+3543600;Rifaina;RA de Franca;6
+3544905;Sales Oliveira;RA de Franca;6
+3549409;São Joaquim da Barra;RA de Franca;6
+3549508;São José da Bela Vista;RA de Franca;6
+3502200;Angatuba;RA de Itapeva;7
+3502705;Apiaí;RA de Itapeva;7
+3503109;Arandu;RA de Itapeva;7
+3505005;Barão de Antonina;RA de Itapeva;7
+3505351;Barra do Chapéu;RA de Itapeva;7
+3507159;Bom Sucesso de Itararé;RA de Itapeva;7
+3508009;Buri;RA de Itapeva;7
+3509452;Campina do Monte Alegre;RA de Itapeva;7
+3510203;Capão Bonito;RA de Itapeva;7
+3512605;Coronel Macedo;RA de Itapeva;7
+3515400;Fartura;RA de Itapeva;7
+3517604;Guapiara;RA de Itapeva;7
+3521200;Iporanga;RA de Itapeva;7
+3521705;Itaberá;RA de Itapeva;7
+3521804;Itaí;RA de Itapeva;7
+3522158;Itaoca;RA de Itapeva;7
+3522406;Itapeva;RA de Itapeva;7
+3522653;Itapirapuã Paulista;RA de Itapeva;7
+3522802;Itaporanga;RA de Itapeva;7
+3523206;Itararé;RA de Itapeva;7
+3532827;Nova Campina;RA de Itapeva;7
+3535804;Paranapanema;RA de Itapeva;7
+3538808;Piraju;RA de Itapeva;7
+3542800;Ribeira;RA de Itapeva;7
+3543006;Ribeirão Branco;RA de Itapeva;7
+3543253;Ribeirão Grande;RA de Itapeva;7
+3543501;Riversul;RA de Itapeva;7
+3551207;Sarutaiá;RA de Itapeva;7
+3553005;Taguaí;RA de Itapeva;7
+3553807;Taquarituba;RA de Itapeva;7
+3553856;Taquarivaí;RA de Itapeva;7
+3554201;Tejupá;RA de Itapeva;7
+3503901;Arujá;RM de São Paulo;10
+3505708;Barueri;RM de São Paulo;10
+3506607;Biritiba Mirim;RM de São Paulo;10
+3509007;Caieiras;RM de São Paulo;10
+3509205;Cajamar;RM de São Paulo;10
+3510609;Carapicuíba;RM de São Paulo;10
+3513009;Cotia;RM de São Paulo;10
+3513801;Diadema;RM de São Paulo;10
+3515004;Embu das Artes;RM de São Paulo;10
+3515103;Embu-Guaçu;RM de São Paulo;10
+3515707;Ferraz de Vasconcelos;RM de São Paulo;10
+3516309;Francisco Morato;RM de São Paulo;10
+3516408;Franco da Rocha;RM de São Paulo;10
+3518305;Guararema;RM de São Paulo;10
+3518800;Guarulhos;RM de São Paulo;10
+3522208;Itapecerica da Serra;RM de São Paulo;10
+3522505;Itapevi;RM de São Paulo;10
+3523107;Itaquaquecetuba;RM de São Paulo;10
+3525003;Jandira;RM de São Paulo;10
+3526209;Juquitiba;RM de São Paulo;10
+3528502;Mairiporã;RM de São Paulo;10
+3529401;Mauá;RM de São Paulo;10
+3530607;Mogi das Cruzes;RM de São Paulo;10
+3534401;Osasco;RM de São Paulo;10
+3539103;Pirapora do Bom Jesus;RM de São Paulo;10
+3539806;Poá;RM de São Paulo;10
+3543303;Ribeirão Pires;RM de São Paulo;10
+3544103;Rio Grande da Serra;RM de São Paulo;10
+3545001;Salesópolis;RM de São Paulo;10
+3546801;Santa Isabel;RM de São Paulo;10
+3547304;Santana de Parnaíba;RM de São Paulo;10
+3547809;Santo André;RM de São Paulo;10
+3548708;São Bernardo do Campo;RM de São Paulo;10
+3548807;São Caetano do Sul;RM de São Paulo;10
+3549953;São Lourenço da Serra;RM de São Paulo;10
+3550308;São Paulo;RM de São Paulo;10
+3552502;Suzano;RM de São Paulo;10
+3552809;Taboão da Serra;RM de São Paulo;10
+3556453;Vargem Grande Paulista;RM de São Paulo;10
