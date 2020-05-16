@@ -19,7 +19,3 @@ Atualização: diária, definida pelo horário de recebimento dos dados, exceto 
 Autoria: [Fundação SEADE](https://www.seade.gov.br/)
 
 Dúvidas, críticas e sugestões: enviar e-mail para Leonardo [leonardobarone@seade.gov.br](leonardobarone@seade.gov.br) e Cássia [cassiaadduci@seade.gov.br](cassiaadduci@seade.gov.br).
-
-## Observações
-
-Foram mantidas as observações referentes a 'outros estados', 'outros países' e 'ignorado' tal como constam no arquivo original.
