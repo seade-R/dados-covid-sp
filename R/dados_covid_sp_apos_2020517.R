@@ -1,6 +1,6 @@
 remove_acentos <- function(x) iconv(x, to = "ASCII//TRANSLIT")
 
-info_munic <- read.csv2('data/informacoes_municipais_seade.csv', stringsAsFactors = F) %>% 
+info_munic <- read.csv2('data/informacoes_municipais_seade.csv', stringsAsFactors = F, dec = '.') %>% 
   mutate(munic = tolower(munic),
          munic = remove_acentos(munic),
          munic = trimws(munic),
@@ -27,7 +27,7 @@ df2 <- excel_sheets(arquivo_xlsx) %>%
       
       tabela <- full_join(tabela_casos, tabela_obitos, by = 'munic')
     }
-
+    
     tabela <- tabela %>% 
       mutate(dia_mes = x,
              dia = as.numeric(substr(dia_mes, 1,2)),
@@ -51,49 +51,20 @@ df2 <- excel_sheets(arquivo_xlsx) %>%
              obitos = as.numeric(obitos)) %>% 
       filter(!is.na(munic)) %>%
       filter(munic != 'total') %>% 
-    filter(munic != 'total geral')
-
+      filter(munic != 'total geral')
+    
   })  %>% 
   reduce(bind_rows) %>% 
   mutate(
     datahora = make_date(year = '2020', month = mes, day = dia),
-    ) %>% 
+  ) %>% 
   left_join(
     info_munic, 
     by = 'munic') %>% 
   mutate(
     codigo_ibge = replace(codigo_ibge, is.na(codigo_ibge), 9999999)
+  ) %>% 
+  filter(
+    datahora > ymd('2020-05-17')
     ) %>% 
-  select(munic, datahora, casos, obitos, dia, mes, codigo_ibge, latitude, longitude) %>% 
-  # complete(
-  #   datahora, 
-  #   nesting(codigo_ibge),
-  #   fill = list(casos = 0, obitos = 0)
-  # ) %>% 
-  filter(datahora > ymd('2020-05-17')) %>% 
-  left_join(
-    read_csv2('data/ra.csv'), 
-    by = 'codigo_ibge') %>% 
-  left_join(
-    read_csv2('data/drs.csv') %>% 
-      select(-cod_ra), 
-    by = 'codigo_ibge') %>% 
-  left_join(
-    read_csv2('data/nome_drs.csv'), 
-    by = 'cod_drs') %>% 
-  left_join(
-    read.csv2('data/imp.csv', fileEncoding = 'Latin2') %>% 
-      mutate(
-        pop_60 = Populaçăo.de.60.a.64.Anos. + 
-          Populaçăo.de.65.a.69.Anos. +
-          Populaçăo.de.70.a.74.Anos.+
-          Populaçăo.de.75.Anos.e.Mais.
-      ) %>% 
-      select(
-        codigo_ibge,
-        pop_60), 
-    by = 'codigo_ibge') %>% 
-  select(nome_munic, codigo_ibge, dia, mes, datahora, 
-         casos, obitos, latitude, longitude,
-         nome_ra, cod_ra, nome_drs, cod_drs, pop, pop_60, area)
-
+  select(codigo_ibge, datahora, casos, obitos)
