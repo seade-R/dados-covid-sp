@@ -56,10 +56,21 @@ df <- bind_rows(df1, df2) %>%
   mutate(
     dia = day(datahora),
     mes = month(datahora),
+    letalidade = obitos / casos,
+    casos_pc = casos / pop * 100000,
+    obitos_pc = obitos / pop * 100000,
+    map_leg = cut(x = casos,
+                  breaks = c(-Inf, 0, 9, 24, 49, 74, 99, 149, Inf),
+                  labels = c('0', '<10', '<25', '<50', '<75', '<100', '<150', '>150')),
+    map_leg_s = cut(x = casos,
+                    breaks = c(-Inf, 0, 9, 24, 49, 74, 99, 149, Inf),
+                    labels = 8:1)
   ) %>% 
   select(nome_munic, codigo_ibge, dia, mes, datahora, 
-         casos, obitos, latitude, longitude,
-         nome_ra, cod_ra, nome_drs, cod_drs, pop, pop_60, area)
+         casos, casos_novos, casos_pc, casos_mm7d,
+         obitos, obitos_novos, obitos_pc, obitos_mm7d,
+         letalidade, nome_ra, cod_ra, nome_drs, cod_drs,
+         pop, pop_60, area, map_leg, map_leg_s, latitude, longitude)
 
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
