@@ -12,11 +12,13 @@ Os **Códigos em R** para reorganização dos dados podem ser acessados [aqui](h
 
 ## Atualizações
 
-A partir do dia 20.05.20, combinamos os arquivos enviados à imprensa pela Secretaria de Estado de Saúde com os dados organizados pelo Sistema de Monitoramento Inteligente (SIMI-SP), cuja fonte é também a Secretaria de Estado de Saúde.
+- [20.05.20] A partir do dia 20.05.20, combinamos os arquivos enviados à imprensa pela Secretaria de Estado de Saúde com os dados organizados pelo Sistema de Monitoramento Inteligente (SIMI-SP), cuja fonte é também a Secretaria de Estado de Saúde.
 
 Há novas variáveis e correções em relação às versões anteriores. As variáveis existentes desde a primeira versão e seus respectivos nomes foram mantidos.
 
-## Variáveis
+- [21.05.20] A partir do dia 21.05.20, o SEADE eliminou incosistências nos dados de casos e óbitos totais acumulados, corrigindo decréscimos eventuais.
+
+## Variáveis e notas
 
 |Variável|Descrição|
 |---|---|
@@ -54,4 +56,6 @@ Atualização: diária, definida pelo horário de recebimento dos dados, exceto 
 
 Autoria: [Fundação SEADE](https://www.seade.gov.br/)
 
-Dúvidas, críticas e sugestões sobre os dados de casos e óbitos municipais: enviar e-mail para Leonardo [leonardobarone@seade.gov.br](leonardobarone@seade.gov.br) e Cássia [cassiaadduci@seade.gov.br](cassiaadduci@seade.gov.br). Por favor, pedidos de dados que não disponibilizados neste repositório devem ser enviados diretamente às respectivas fontes.
+Dúvidas, críticas e sugestões sobre os dados de casos e óbitos municipais: enviar e-mail para Leonardo [leonardobarone@seade.gov.br](leonardobarone@seade.gov.br) e Cássia [cassiaadduci@seade.gov.br](cassiaadduci@seade.gov.br).
+
+Por favor, pedimos a gentileza para que solicitações de dados não disponibilizados neste repositório sejam enviadas diretamente às fontes primárias.
