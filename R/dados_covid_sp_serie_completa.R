@@ -173,7 +173,7 @@ df <- df %>%
          pop, pop_60, area, map_leg, map_leg_s, latitude, longitude)
 
 df_sp_munic <- df %>% 
-  filter(codigo_ibge != 9999999) %>% 
+  filter(codigo_ibge != 9999999) %>%
   group_by(datahora) %>% 
   summarise(casos = sum(casos),
             obitos = sum(obitos)) 
@@ -232,8 +232,8 @@ df_sp_munic <- df_sp_munic %>%
   select(-casos_sp, -obitos_sp)
 
 df <- df %>% 
-  filter(codigo_ibge != 9999999) %>% 
-  bind_rows(
+  filter(codigo_ibge != 9999999) %>%
+    bind_rows(
     df_sp_munic
   ) %>% 
   mutate(letalidade = replace(letalidade, casos == 0, 0)) %>% 
