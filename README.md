@@ -47,6 +47,7 @@ Há novas variáveis e correções em relação às versões anteriores. As vari
 |map_leg_s| Código da legenda para mapa|
 |latitude| Latitude|
 |longitude| Longitude|
+|semana_epidem| Semana Epidemológica|
 
 ## Informações adicionais
 

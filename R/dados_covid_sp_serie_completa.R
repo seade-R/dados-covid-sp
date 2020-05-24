@@ -8,6 +8,31 @@ library(zoo)
 source('R/dados_covid_sp_20200225_a_2020517.R')
 source('R/dados_covid_sp_apos_2020517.R')
 
+
+df_semana_epidem <- NULL
+
+j = 3
+s = 1
+
+for (i in 0:365){
+  
+  df_semana_epidem <- bind_rows(
+    df_semana_epidem,
+    data.frame(
+      datahora = ymd('2020-01-01') + i,
+      semana_epidem = s
+    )
+  )
+  
+  j <- j + 1
+  
+  if(j == 7) {
+    j <- 0
+    s <- s + 1
+  }
+}  
+
+
 df <- bind_rows(df1, df2) %>% 
   complete(
     datahora,
@@ -178,23 +203,8 @@ df_sp_munic <- df %>%
   summarise(casos = sum(casos),
             obitos = sum(obitos)) 
 
-df_sp_uf <- read.csv2('data/sp.csv', fileEncoding = 'Latin2') %>% 
-  rename(casos = Casos.por.dia, obitos = Óbitos.por.dia) %>% 
-  filter(!is.na(casos)) %>% 
-  mutate(dia_mes = as.character(Data),
-         dia = as.numeric(substr(dia_mes, 1,2)),
-         mes = substr(dia_mes, 4, 6),
-         mes = replace(mes, mes == 'fev', 2),
-         mes = replace(mes, mes == 'mar', 3),
-         mes = replace(mes, mes == 'abr', 4),
-         mes = replace(mes, mes == 'mai', 5),
-         mes = as.numeric(mes),
-         datahora = ymd(paste('2020', mes, dia, '-'))) %>% 
-  arrange(datahora) %>% 
-  mutate(
-    obitos = replace_na(obitos, replace = 0),
-    casos_sp = cumsum(casos),
-    obitos_sp = cumsum(obitos)) %>% 
+df_sp_uf <- read_csv2('data/sp.csv') %>%  
+  rename(casos_sp = casos_acum, obitos_sp = obitos_acum) %>% 
   select(datahora, casos_sp, obitos_sp) 
 
 df_sp_munic <- df_sp_munic %>% 
@@ -236,14 +246,19 @@ df <- df %>%
     bind_rows(
     df_sp_munic
   ) %>% 
-  mutate(letalidade = replace(letalidade, casos == 0, 0)) %>% 
-  mutate(casos_mm7d = replace_na(casos_mm7d,0)) %>% 
-  mutate(obitos_mm7d = replace_na(obitos_mm7d,0)) 
+  mutate(
+    letalidade = replace(letalidade, casos == 0, 0),
+    casos_mm7d = replace_na(casos_mm7d,0),
+    obitos_mm7d = replace_na(obitos_mm7d,0)
+  )  %>% 
+  left_join(
+    df_semana_epidem,
+    by = 'datahora'
+  )
+  
 
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
 
 df %>% 
   write.csv2('data/dados_covid_sp_latin1.csv', row.names = F, fileEncoding = 'Latin1')
-
-
