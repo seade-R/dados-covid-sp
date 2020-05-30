@@ -266,3 +266,4 @@ df %>%
 
 df %>% 
   write.csv2('data/dados_covid_sp_latin1.csv', row.names = F, fileEncoding = 'Latin1')
+
