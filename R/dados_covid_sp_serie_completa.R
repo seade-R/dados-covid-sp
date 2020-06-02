@@ -257,9 +257,7 @@ df <- df %>%
   )
   
 
-df %>% 
-  filter(datahora == today()) %>% 
-  View
+df %>% View
 
 df %>% 
   write_csv2('data/dados_covid_sp.csv')
