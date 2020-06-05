@@ -263,7 +263,7 @@ df %>%
   write_csv2('data/dados_covid_sp.csv')
 
 df %>% 
-  # filter(casos != 0) %>% 
+  filter(casos != 0) %>%
   write.csv2('data/dados_covid_sp_latin1.csv', row.names = F, fileEncoding = 'Latin1')
 
 # df %>% nrow
