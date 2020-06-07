@@ -49,6 +49,8 @@ Há novas variáveis e correções em relação às versões anteriores. As vari
 |longitude| Longitude|
 |semana_epidem| Semana Epidemológica|
 
+Encoding do arquivo dados_covid_sp.csv = UTF-8
+
 ## Informações adicionais
 
 Fonte dos dados: Secretaria de Estado da Saúde de São Paulo (SES)
