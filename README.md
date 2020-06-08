@@ -6,19 +6,9 @@ O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronav
 
 Para desenvolvedoras e desenvolvedores interessados em utilizar os dados de casos e óbitos por municípios e data, disponibilizamos a base em arquivo .csv. Faça **Download dos dados** do SEADE neste [link](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
 
-Os dados originais: 1) [Até 17.05.20](https://github.com/seade-R/dados-covid-sp/blob/master/data/Municipios%20informacoes%20dia.xlsx); 2) [Após 17.05.20](https://github.com/seade-R/dados-covid-sp/blob/master/data/sp_munic.csv)
+## Dicionário de variáveis e notas
 
-Os **Códigos em R** para reorganização dos dados podem ser acessados [aqui](https://github.com/seade-R/dados-covid-sp/blob/master/R).
-
-## Atualizações
-
-- [20.05.20] A partir do dia 20.05.20, combinamos os arquivos enviados à imprensa pela Secretaria de Estado de Saúde com os dados organizados pelo Sistema de Monitoramento Inteligente (SIMI-SP), cuja fonte é também a Secretaria de Estado de Saúde.
-
-Há novas variáveis e correções em relação às versões anteriores. As variáveis existentes desde a primeira versão e seus respectivos nomes foram mantidos.
-
-- [21.05.20] A partir do dia 21.05.20, o SEADE eliminou incosistências nos dados de casos e óbitos totais acumulados, corrigindo decréscimos eventuais.
-
-## Variáveis e notas
+#### Dicionário 
 
 |Variável|Descrição|
 |---|---|
@@ -49,13 +39,33 @@ Há novas variáveis e correções em relação às versões anteriores. As vari
 |longitude| Longitude|
 |semana_epidem| Semana Epidemológica|
 
-Encoding do arquivo dados_covid_sp.csv = UTF-8
+#### Encoding
+
+Encoding do arquivo dados_covid_sp.csv: UTF-8
+
+## Atualizações
+
+#### [20.05.20]
+
+A partir do dia 20.05.20, combinamos os arquivos enviados à imprensa pela Secretaria de Estado de Saúde com os dados organizados pelo Sistema de Monitoramento Inteligente (SIMI-SP), cuja fonte é também a Secretaria de Estado de Saúde.
+
+Há novas variáveis e correções em relação às versões anteriores. As variáveis existentes desde a primeira versão e seus respectivos nomes foram mantidos.
+
+####  [21.05.20]
+
+A partir do dia 21.05.20, o SEADE eliminou incosistências nos dados de casos e óbitos totais acumulados, corrigindo decréscimos eventuais entre dias consecutivos.
+
+## Dados originais e código em R
+
+Os dados originais: 1) [Até 17.05.20](https://github.com/seade-R/dados-covid-sp/blob/master/data/Municipios%20informacoes%20dia.xlsx); 2) [Após 17.05.20](https://github.com/seade-R/dados-covid-sp/blob/master/data/sp_munic.csv)
+
+Os **Códigos em R** para reorganização dos dados podem ser acessados [aqui](https://github.com/seade-R/dados-covid-sp/blob/master/R).
 
 ## Informações adicionais
 
 Fonte dos dados: Secretaria de Estado da Saúde de São Paulo (SES)
 
-Atualização: diária, definida pelo horário de recebimento dos dados, exceto aos finais de semana e feriados.
+Atualização: diária, definida pelo horário de recebimento dos dados.
 
 Autoria: [Fundação SEADE](https://www.seade.gov.br/)
 
