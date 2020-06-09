@@ -1,4 +1,4 @@
-# Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo
+# Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo e sobre leitos e internações por Departamento Regional de Saúde
 
 ## Apresentação e dados
 
@@ -45,7 +45,7 @@ A partir do dia 08 de Junho, o SEADE disponibiliza também informações sobre o
 
 |Variável|Descrição|
 |---|---|
-|datahora| Data no formato YYYY-MM-DD|
+|datahora| Data no formato MM-DD-YYYY|
 |nome_drs| DRS ou região da Grande São Paulo|
 |total_covid_uti| Total de Leitos de UTI Destinados para COVID-19 no dia|
 |pop| População da DRS ou região da Grande São Paulo (Fonte: SEADE)|
