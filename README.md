@@ -45,7 +45,7 @@ A partir do dia 08 de Junho, o SEADE disponibiliza também informações sobre o
 
 |Variável|Descrição|
 |---|---|
-|datahora| Data no formato MM-DD-YYYY|
+|datahora| Data no formato YYYY-MM-DD|
 |nome_drs| DRS ou região da Grande São Paulo|
 |total_covid_uti| Total de Leitos de UTI Destinados para COVID-19 no dia|
 |pop| População da DRS ou região da Grande São Paulo (Fonte: SEADE)|
