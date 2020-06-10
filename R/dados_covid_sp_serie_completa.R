@@ -263,6 +263,47 @@ df %>%
   write_csv2('data/dados_covid_sp.csv')
 
 df %>% 
+  mutate(
+    nome_drs = replace(nome_drs, nome_munic == 'São Paulo', 'Município de São Paulo'),
+    nome_drs = replace(nome_drs, nome_munic == 'Caieiras', "Grande SP Norte"),
+    nome_drs = replace(nome_drs, nome_munic == 'Cajamar', "Grande SP Norte"),
+    nome_drs = replace(nome_drs, nome_munic == 'Francisco Morato', "Grande SP Norte"),
+    nome_drs = replace(nome_drs, nome_munic == 'Franco da Rocha', "Grande SP Norte"),
+    nome_drs = replace(nome_drs, nome_munic == 'Mairiporã', "Grande SP Norte"),
+    nome_drs = replace(nome_drs, nome_munic == 'Arujá', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Biritiba Mirim', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Ferraz de Vasconcelos', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Guararema', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Guarulhos', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Itaquaquecetuba', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Mogi das Cruzes', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Poá', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Salesópolis', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Santa Isabel', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Suzano', "Grande SP Leste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Diadema', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Mauá', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Ribeirão Pires', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Rio Grande da Serra', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Santo André', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'São Bernardo do Campo', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'São Caetano do Sul', "Grande SP Sudeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Cotia', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Embu das Artes', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Embu-Guaçu', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Itapecerica da Serra', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Juquitiba', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'São Lourenço da Serra', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Taboão da Serra', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Vargem Grande Paulista', "Grande SP Sudoeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Barueri', "Grande SP Oeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Carapicuíba', "Grande SP Oeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Itapevi', "Grande SP Oeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Jandira', "Grande SP Oeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Osasco', "Grande SP Oeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Pirapora do Bom Jesus', "Grande SP Oeste"),
+    nome_drs = replace(nome_drs, nome_munic == 'Santana de Parnaíba', "Grande SP Oeste")
+  ) %>% 
   filter(casos != 0) %>%
   write.csv2('data/dados_covid_sp_latin1.csv', row.names = F, fileEncoding = 'Latin1')
 
