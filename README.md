@@ -47,12 +47,16 @@ A partir do dia 08 de Junho, o SEADE disponibiliza também informações sobre o
 |---|---|
 |datahora| Data no formato YYYY-MM-DD|
 |nome_drs| DRS ou região da Grande São Paulo|
-|total_covid_uti| Total de Leitos de UTI Destinados para COVID-19 no dia|
+|total_covid_uti_mm7d| Média móvel para 7 dias do Total de Leitos de UTI Destinados para COVID-19 no dia|
 |pop| População da DRS ou região da Grande São Paulo (Fonte: SEADE)|
 |leitos_pc| Leitos Covid-19 UTI por 100 mil habitantes (total_covid_uti / pop)|
 |internacoes_7d| Número de novas internações de pacientes confirmados ou com suspeita de COVID-19 nos últimos 7 dias|
 |internacoes_7d_l| Número de novas internações de pacientes confirmados ou com suspeita de COVID-19 nos 7 dias anteriores|
 |internacoes_7v7| Variação no número de novas internações ((internacoes_7d - internacoes_7d_l) / internacoes_7d_l)|
+
+### Notas
+
+[11.06.2020] NOTA: As informações sobre leitos e internações em dias anteriores podem conter pequenas variações em novas versões publicadas em virtude de atualizações no banco de dados do Censo Covid.
 
 #### Fontes
 
