@@ -53,7 +53,6 @@ df2 <- excel_sheets(arquivo_xlsx) %>%
       filter(!is.na(munic)) %>%
       filter(munic != 'total') %>% 
       filter(munic != 'total geral')
-    
   })  %>% 
   reduce(bind_rows) %>% 
   mutate(
@@ -68,4 +67,9 @@ df2 <- excel_sheets(arquivo_xlsx) %>%
   filter(
     datahora > ymd('2020-05-17')
     ) %>% 
-  select(codigo_ibge, datahora, casos, obitos)
+  select(codigo_ibge, datahora, casos, obitos) %>% 
+  group_by(codigo_ibge, datahora) %>% 
+  summarise(casos = sum(casos),
+            obitos = sum(obitos))
+
+
