@@ -4,9 +4,17 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+#### Casos e óbitos 
+
 Para desenvolvedoras e desenvolvedores interessados em utilizar os dados de casos e óbitos por municípios e data, disponibilizamos a base em arquivo .csv. **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
 
-A partir do dia 08 de Junho, o SEADE disponibiliza também informações sobre o leitos e internações por Departamento Regional de Saúde desde o dia 18 de junho segundo os critérios utilizados no Plano SP. **Download dos dados de leitos e internações**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
+#### Leitos e Internações
+
+A partir do dia 08 de Junho, o SEADE disponibiliza informações sobre o leitos e internações por Departamento Regional de Saúde desde o dia 18 de junho segundo os critérios utilizados no Plano SP. **Download dos dados de leitos e internações**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
+
+#### SRAG
+
+A partir do dia 22 de Junho estão disponíveis dados sobre casos de Síndrome Respiratória Aguda Grave (SRAG). **Download dos dados de casos de SRAG**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/20200615_SRAG.csv).
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
