@@ -16,7 +16,7 @@ A partir do dia 08 de Junho, o SEADE disponibiliza informações sobre o leitos 
 
 A partir do dia 22 de Junho estão disponíveis dados sobre hospitalizados por Síndrome Respiratória Aguda Grave (SRAG). Fonte: SIVEP-Gripe. **Download dos dados de casos de SRAG**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/SRAG_2020.csv). Última atualização: 15/06/2020
 
-Dicionário dos dados de hospitalizados por SRAG [AQUI]()
+Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade-R/dados-covid-sp/blob/master/data/dicionario_de_dados_srag_hospitalizado_atual-sivepgripe.pdf)
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
