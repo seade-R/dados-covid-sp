@@ -14,7 +14,7 @@ A partir do dia 08 de Junho, o SEADE disponibiliza informações sobre o leitos 
 
 #### SRAG
 
-A partir do dia 22 de Junho estão disponíveis dados sobre casos de Síndrome Respiratória Aguda Grave (SRAG). **Download dos dados de casos de SRAG**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/20200615_SRAG.csv).
+A partir do dia 22 de Junho estão disponíveis dados sobre casos de Síndrome Respiratória Aguda Grave (SRAG). **Download dos dados de casos de SRAG**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/SRAG_20200615.csv).
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
