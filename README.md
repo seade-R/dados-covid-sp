@@ -18,6 +18,10 @@ A partir do dia 22 de Junho estão disponíveis dados sobre hospitalizados por S
 
 Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade-R/dados-covid-sp/blob/master/data/dicionario_de_dados_srag_hospitalizado_atual-sivepgripe.pdf)
 
+#### Casos, óbitos e doenças pré-existentes.
+
+A partir do dia 23 de Junho estão disponíveis dados sobre casos e óbitos com doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. A contagem de casos e óbitos feita diariamente pelo SEADE provém deste arquivo. **Download dos dados de casos, óbitos e doenças pré-existentes**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv). Em breve adicionaremos o dicionário ao repositório.
+
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
 #### Dicionário para o arquivo de casos e óbitos
@@ -94,15 +98,7 @@ A partir do dia 21.05.20, o SEADE eliminou incosistências nos dados de casos e 
 
 A partir do dia 08.06.20, o SEADE passou a publicar as informações sobre leitos destinados ao tratamento da COVID-19 e novas internações seguindo os critérios adotados pelo Plano SP.
 
-## Dados originais e código em R para casos e internações
-
-Os dados originais: 1) [Até 17.05.20](https://github.com/seade-R/dados-covid-sp/blob/master/data/Municipios%20informacoes%20dia.xlsx); 2) [Após 17.05.20](https://github.com/seade-R/dados-covid-sp/blob/master/data/sp_munic.csv)
-
-Os **Códigos em R** para reorganização dos dados podem ser acessados [aqui](https://github.com/seade-R/dados-covid-sp/blob/master/R).
-
 ## Informações adicionais
-
-Fonte dos dados: Secretaria de Estado da Saúde de São Paulo (SES)
 
 Atualização: diária, definida pelo horário de recebimento dos dados.
 
