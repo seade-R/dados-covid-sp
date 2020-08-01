@@ -37,6 +37,7 @@ df2 <- excel_sheets(arquivo_xlsx) %>%
              mes = replace(mes, mes == 'mai', 5),
              mes = replace(mes, mes == 'jun', 6),
              mes = replace(mes, mes == 'jul', 7),
+             mes = replace(mes, mes == 'ago', 8),
              mes = as.numeric(mes)) %>% 
       select(-dia_mes)
     
