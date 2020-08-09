@@ -22,7 +22,7 @@ Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade
 
 #### Casos, óbitos e doenças pré-existentes.
 
-A partir do dia 23 de Junho estão disponíveis dados sobre casos e óbitos com doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. A contagem de casos e óbitos feita diariamente pelo SEADE provém deste arquivo. **Download dos dados de casos, óbitos e doenças pré-existentes**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv). Em breve adicionaremos o dicionário ao repositório.
+A partir do dia 23 de Junho estão disponíveis dados sobre casos e óbitos com doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. A contagem de casos e óbitos feita diariamente pelo SEADE provém deste arquivo. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.zip). A partir de 09 de Agosto de 2020 o arquivo será disponibilizado em formato .zip por conta dos limites de tamanho de arquivo no github.
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
@@ -48,8 +48,8 @@ A partir do dia 23 de Junho estão disponíveis dados sobre casos e óbitos com 
 |cod_ra| Código da Região Administrativa|
 |nome_drs| Nome do Dpto. Regional de Saúde|
 |cod_drs| Código do Dpto. Regional de Saúde|
-|pop| População Estimada (fonte SEADE)|
-|pop60| População Estimada (fonte SEADE)|
+|pop| População Estimada (fonte: SEADE)|
+|pop60| População Estimada (fonte: SEADE)|
 |area| Área do município em Km2|
 |map_leg| Rótulo da legenda para mapa|
 |map_leg_s| Código da legenda para mapa|
@@ -99,6 +99,10 @@ A partir do dia 21.05.20, o SEADE eliminou incosistências nos dados de casos e 
 ####  [08.06.20]
 
 A partir do dia 08.06.20, o SEADE passou a publicar as informações sobre leitos destinados ao tratamento da COVID-19 e novas internações seguindo os critérios adotados pelo Plano SP.
+
+####  [09.08.20]
+
+O arquivo de casos, óbitos e doenças pré-existentes será disponibilizado em formato .zip a partir desta data por ultrapassar o limite de tamanho de arquivos do github.
 
 ## Informações adicionais
 
