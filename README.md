@@ -22,6 +22,10 @@ Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade
 
 A partir do dia 23 de Junho estão disponíveis dados sobre casos e óbitos com doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. A contagem de casos e óbitos feita diariamente pelo SEADE provém deste arquivo. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv.zip). A partir de 09 de Agosto de 2020 o arquivo será disponibilizado em formato .zip por conta dos limites de tamanho de arquivo no github.
 
+#### Casos, óbitos por raça/cor e município.
+
+**Download dos dados casos, óbitos por raça/cor e município**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_raca_cor.csv.zip).
+
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
 #### Dicionário para o arquivo de casos e óbitos
