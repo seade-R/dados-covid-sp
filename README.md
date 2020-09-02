@@ -113,6 +113,8 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 
 [11.06.2020] NOTA: As informações sobre leitos e internações em dias anteriores podem conter pequenas variações em novas versões publicadas em virtude de atualizações no banco de dados do Censo Covid.
 
+[02.09.2020] NOTA: O arquivo do histórico de leitos e internações foi atualizado para se adequar aos critérios utilizados no Plano São																																																																																																																																																						 Paulo.
+
 #### Fontes
 
 Casos e óbitos: SIVEP, SIMI-SP e SEADE
