@@ -10,7 +10,11 @@ Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos*
 
 #### Leitos e Internações
 
-Leitos e internações por Departamento Regional de Saúde segundo os critérios utilizados no Plano SP. **Download dos dados de leitos e internações**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
+Leitos e internações por Departamento Regional de Saúde segundo os critérios utilizados no Plano SP.
+
+**Série Nova**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova.csv).
+
+**Série Antiga**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
 
 #### SRAG
 
@@ -51,7 +55,7 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |nome_drs| Nome do Dpto. Regional de Saúde|
 |cod_drs| Código do Dpto. Regional de Saúde|
 |pop| População Estimada (fonte: SEADE)|
-|pop60| População Estimada (fonte: SEADE)|
+|pop60| População acima de 60 anos (fonte: SEADE)|
 |area| Área do município em Km2|
 |map_leg| Rótulo da legenda para mapa|
 |map_leg_s| Código da legenda para mapa|
@@ -60,6 +64,8 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |semana_epidem| Semana Epidemológica|
 
 #### Dicionário para o arquivo de leitos e internações
+
+Série antiga
 
 |Variável|Descrição|
 |---|---|
@@ -73,6 +79,21 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |internacoes_7d| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos últimos 7 dias|
 |internacoes_7d_l| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos 7 dias anteriores|
 |internacoes_7v7| Variação no número de novas internações ((internacoes_7d - internacoes_7d_l) / internacoes_7d_l)|
+
+Série nova
+
+|Variável|Descrição|
+|---|---|
+|datahora| Data no formato YYYY-MM-DD|
+|nome_drs| DRS ou região da Grande São Paulo|
+|pacientes_uti_mm7d| Média móvel para 7 dias do Pacientes Internados em Leitos de UTI Destinados para COVID-19 no dia|
+|total_covid_uti_mm7d| Média móvel para 7 dias do Total de Leitos de UTI Destinados para COVID-19 no dia|
+|ocupacao_leitos| Ocupação de leitos de UTI destinados para COVID-19 (pacientes_uti_mm7d / total_covid_uti_mm7d)|
+|pop| População da DRS ou região da Grande São Paulo (Fonte: SEADE)|
+|leitos_pc| Leitos Covid-19 UTI por 100 mil habitantes (total_covid_uti_mm7d / pop)|
+|internacoes_28d| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos últimos 28 dias|
+|internacoes_28d_l| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos 28 dias anteriores|
+|internacoes_28v28| Variação no número de novas internações ((internacoes_28d - internacoes_28d_l) / internacoes_28d_l)|
 
 #### Dicionário para o arquivo de Casos, óbitos e doenças pré-existentes
 
@@ -113,7 +134,7 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 
 [11.06.2020] NOTA: As informações sobre leitos e internações em dias anteriores podem conter pequenas variações em novas versões publicadas em virtude de atualizações no banco de dados do Censo Covid.
 
-[02.09.2020] NOTA: O arquivo do histórico de leitos e internações foi atualizado para se adequar aos critérios utilizados no Plano São																																																																																																																																																						 Paulo.
+[02.09.2020] NOTA: O arquivo do histórico de leitos e internações foi atualizado para se adequar aos critérios utilizados no Plano São Paulo.
 
 #### Fontes
 
@@ -145,10 +166,13 @@ A partir do dia 08.06.20, o SEADE passou a publicar as informações sobre leito
 
 O arquivo de casos, óbitos e doenças pré-existentes será disponibilizado em formato .zip a partir desta data por ultrapassar o limite de tamanho de arquivos do github.
 
-
 ####  [22.08.20]
 
 Inclusão do arquivo de casos, óbitos e raça/cor. Atualização dos dicionários das bases de casos, óbitos e doenças pré-existentes e de casos, óbitos e raça/cor. Inclusão de variáveis de taxa de ocupação de leitos e pacientes internados por DRS (média de 7 dias) no arquivo de Leitos e Internações.
+
+####  [09.10.20]
+
+Para acompanhar as mudanças do Plano São Paulo, adicionamos uma segunda versão do arquivo de leitos e internações com a nova regionalização da Grande São Paulo, reagrupada, e as variáveis calculadas para períodos de 28 dias.
 
 ## Informações adicionais
 
