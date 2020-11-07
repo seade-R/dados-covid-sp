@@ -1,5 +1,7 @@
 # Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo e sobre leitos e internações por Departamento Regional de Saúde
 
+## NOTA: Não houve atualização no dia 06 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
+
 ## Apresentação e dados
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
@@ -173,6 +175,10 @@ Inclusão do arquivo de casos, óbitos e raça/cor. Atualização dos dicionári
 ####  [09.10.20]
 
 Para acompanhar as mudanças do Plano São Paulo, adicionamos uma segunda versão do arquivo de leitos e internações com a nova regionalização da Grande São Paulo, reagrupada, e as variáveis calculadas para períodos de 28 dias.
+
+####  [06.11.20]
+
+Não houve atualização no dia 06 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
 
 ## Informações adicionais
 
