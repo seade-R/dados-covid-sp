@@ -1,6 +1,6 @@
 # Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo e sobre leitos e internações por Departamento Regional de Saúde
 
-## NOTA: Não houve atualização no dia 06 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
+## NOTA: Não houve atualização nos dias 06, 07 e 08 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
 
 ## Apresentação e dados
 
@@ -179,6 +179,14 @@ Para acompanhar as mudanças do Plano São Paulo, adicionamos uma segunda versã
 ####  [06.11.20]
 
 Não houve atualização no dia 06 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
+
+####  [07.11.20]
+
+Não houve atualização no dia 07 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
+
+####  [08.11.20]
+
+Não houve atualização no dia 08 de Novembro de 2020 em virtude de problemas nos sistemas nacionais de registros de casos e óbitos relacionados a COVID-19.
 
 ## Informações adicionais
 
