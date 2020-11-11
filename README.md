@@ -1,7 +1,5 @@
 # Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo e sobre leitos e internações por Departamento Regional de Saúde
 
-## NOTA: Informações sobre taxas de ocupação de leitos e internações seguem sendo atualizadas diariamente. Os dados sobre casos e óbitos são de 05/11/2020 em virtude de problemas em sistema federal de notificação de dados da Covid-19.
-
 ## Apresentação e dados
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
@@ -191,6 +189,18 @@ Não houve atualização das informações de casos e óbitos no dia 08 de Novem
 ####  [09.11.20]
 
 Não houve atualização das informações de casos e óbitos no dia 09 de Novembro de 2020 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+####  [10.11.20]
+
+Não houve atualização das informações de casos e óbitos no dia 09 de Novembro de 2020 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+####  [11.11.20]
+
+A SES-SP retomou a extração de dados após normalização dos dados do sistema federal SIVEP, onde ocorre a notificação de casos graves e óbitos
+
+Os dados foram atualizados na manhã do dia 11.11.20, após normalização do sistema de notificação do Ministério da Saúde que esteve inacessível desde a última sexta-feira (6) por problemas técnicos, segundo o governo federal.
+
+Mais informações em [https://www.saopaulo.sp.gov.br/noticias-coronavirus/sp-registra-399-mil-obitos-e-115-milhao-casos-de-coronavirus/](https://www.saopaulo.sp.gov.br/noticias-coronavirus/sp-registra-399-mil-obitos-e-115-milhao-casos-de-coronavirus/)
 
 ## Informações adicionais
 
