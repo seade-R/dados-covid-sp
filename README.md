@@ -81,6 +81,9 @@ Série antiga
 |internacoes_7d| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos últimos 7 dias|
 |internacoes_7d_l| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos 7 dias anteriores|
 |internacoes_7v7| Variação no número de novas internações ((internacoes_7d - internacoes_7d_l) / internacoes_7d_l)|
+|pacientes_uti_ultimo_dia| Pacientes Internados em Leitos de UTI Destinados para COVID-19 no dia anterior|
+|total_covid_uti_ultimos_dia| Total de Leitos de UTI Destinados para COVID-19 no dia anterior|
+|ocupacao_leitos_ultimos_dia| Ocupação de leitos de UTI destinados para COVID-19 no dia anterior (pacientes_uti / total_covid_uti)|
 
 Série nova
 
