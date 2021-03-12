@@ -208,6 +208,10 @@ Mais informações em [https://www.saopaulo.sp.gov.br/noticias-coronavirus/sp-re
 
 Não houve atualização das informações de casos e óbitos no dia 09 de Novembro de 2020 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
+####  [11.03.21]
+
+Incluímos nos arquivos de leitos e internações as informações sobre pacientes, leitos e ocupação de leitos relativos a Covid-19 do útimos dia, ademais das médias móveis dos últimos 7 dias
+
 ## Informações adicionais
 
 Atualização: diária, definida pelo horário de recebimento dos dados.
