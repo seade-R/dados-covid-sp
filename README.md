@@ -84,6 +84,34 @@ Série antiga
 |pacientes_uti_ultimo_dia| Pacientes Internados em Leitos de UTI Destinados para COVID-19 no último dia|
 |total_covid_uti_ultimos_dia| Total de Leitos de UTI Destinados para COVID-19 no último dia|
 |ocupacao_leitos_ultimos_dia| Ocupação de leitos de UTI destinados para COVID-19 no último dia (pacientes_uti / total_covid_uti)|
+|internacoes_ultimo_dia| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 no último dia|
+|pacientes_enf_mm7d| Média móvel para 7 dias do Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no dia|
+|total_covid_enf_mm7d| Média móvel para 7 dias do Total de Leitos de Enfermaria Destinados para COVID-19 no dia|
+|pacientes_enf_ultimo_dia| Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no último dia|
+|total_covid_enf_ultimos_dia| Total de Leitos de Enfermaria Destinados para COVID-19 no último dia|
+
+Série nova variação semanal
+
+|Variável|Descrição|
+|---|---|
+|datahora| Data no formato YYYY-MM-DD|
+|nome_drs| DRS|
+|pacientes_uti_mm7d| Média móvel para 7 dias do Pacientes Internados em Leitos de UTI Destinados para COVID-19 no dia|
+|total_covid_uti_mm7d| Média móvel para 7 dias do Total de Leitos de UTI Destinados para COVID-19 no dia|
+|ocupacao_leitos| Ocupação de leitos de UTI destinados para COVID-19 (pacientes_uti_mm7d / total_covid_uti_mm7d)|
+|pop| População da DRS ou região da Grande São Paulo (Fonte: SEADE)|
+|leitos_pc| Leitos Covid-19 UTI por 100 mil habitantes (total_covid_uti_mm7d / pop)|
+|internacoes_7d| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos últimos 7 dias|
+|internacoes_7d_l| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos 7 dias anteriores|
+|internacoes_7v7| Variação no número de novas internações ((internacoes_7d - internacoes_7d_l) / internacoes_7d_l)|
+|pacientes_uti_ultimo_dia| Pacientes Internados em Leitos de UTI Destinados para COVID-19 no último dia|
+|total_covid_uti_ultimos_dia| Total de Leitos de UTI Destinados para COVID-19 no último dia|
+|ocupacao_leitos_ultimos_dia| Ocupação de leitos de UTI destinados para COVID-19 no último dia (pacientes_uti / total_covid_uti)|
+|internacoes_ultimo_dia| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 no último dia|
+|pacientes_enf_mm7d| Média móvel para 7 dias do Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no dia|
+|total_covid_enf_mm7d| Média móvel para 7 dias do Total de Leitos de Enfermaria Destinados para COVID-19 no dia|
+|pacientes_enf_ultimo_dia| Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no último dia|
+|total_covid_enf_ultimos_dia| Total de Leitos de Enfermaria Destinados para COVID-19 no último dia|
 
 Série nova
 
@@ -99,6 +127,12 @@ Série nova
 |internacoes_28d| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos últimos 28 dias|
 |internacoes_28d_l| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos 28 dias anteriores|
 |internacoes_28v28| Variação no número de novas internações ((internacoes_28d - internacoes_28d_l) / internacoes_28d_l)|
+|internacoes_ultimo_dia| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 no último dia|
+|pacientes_enf_mm7d| Média móvel para 7 dias do Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no dia|
+|total_covid_enf_mm7d| Média móvel para 7 dias do Total de Leitos de Enfermaria Destinados para COVID-19 no dia|
+|pacientes_enf_ultimo_dia| Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no último dia|
+|total_covid_enf_ultimos_dia| Total de Leitos de Enfermaria Destinados para COVID-19 no último dia|
+
 
 #### Dicionário para o arquivo de Casos, óbitos e doenças pré-existentes
 
