@@ -14,9 +14,9 @@ Leitos e internações por Departamento Regional de Saúde segundo os critérios
 
 **Série antiga (variação mensal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova.csv).
 
-**Série antiga (variaçõa semanal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
+**Série antiga (variação semanal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
 
-**Série em uso (variaçõa semanal e Grande São Paulo unificada)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv).
+**Série em uso (variação semanal e Grande São Paulo unificada)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv).
 
 #### SRAG
 
