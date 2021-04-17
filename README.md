@@ -168,6 +168,22 @@ Série nova
 |nome_drs| Nome do Dpto. Regional de Saúde de residência do paciente|
 |obito|Indica se o paciente veio a óbito por COVID-19|
 |raca_cor| Cor ou raça do paciente|
+|idade|Idade do paciente|
+|cs_sexo|Sexo do paciente|
+|diagnostico_covid19|Confirmação de COVID-19|
+|asma|Paciente apresenta esse fator de risco (asma)|
+|cardiopatia|Paciente apresenta esse fator de risco (cardiopatia)|
+|diabetes|Paciente apresenta esse fator de risco (diabetes)|
+|doenca_hematologica|Paciente apresenta esse fator de risco (doença hematológica)|
+|doenca_hepatica|Paciente apresenta esse fator de risco (doença hepática)|
+|doenca_neurologica|Paciente apresenta esse fator de risco (doença neurológica)|
+|doenca_renal|Paciente apresenta esse fator de risco (doença renal)|
+|imunodepressao|Paciente apresenta esse fator de risco (imunodepressão)|
+|obesidade|Paciente apresenta esse fator de risco (obesidade)|
+|outros_fatores_de_risco|Paciente apresenta outros fatores de risco|
+|pneumopatia|Paciente apresenta esse fator de risco (pneumopatia)|
+|puerpera|Paciente se encontra nesse estágio (puérpera)|
+|sindrome_de_down|Paciente apresenta esse fator de risco (síndrome de down)|
 
 ### Notas
 
