@@ -180,7 +180,6 @@ Série nova
 |doenca_renal|Paciente apresenta esse fator de risco (doença renal)|
 |imunodepressao|Paciente apresenta esse fator de risco (imunodepressão)|
 |obesidade|Paciente apresenta esse fator de risco (obesidade)|
-|outros_fatores_de_risco|Paciente apresenta outros fatores de risco|
 |pneumopatia|Paciente apresenta esse fator de risco (pneumopatia)|
 |puerpera|Paciente se encontra nesse estágio (puérpera)|
 |sindrome_de_down|Paciente apresenta esse fator de risco (síndrome de down)|
