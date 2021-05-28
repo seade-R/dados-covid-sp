@@ -268,6 +268,10 @@ Incluímos nos arquivos de leitos e internações as informações sobre pacient
 
 Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados hoje, 27/maio.
 
+####  [28.05.21]
+
+Em virtude de indisponibilidade do e-SUS Notifica, ferramenta online de registro de casos de COVID-19 do Ministério da Saúde, há uma variação atípica no número de novos casos em 28/maio.
+
 ## Informações adicionais
 
 Atualização: diária, definida pelo horário de recebimento dos dados.
