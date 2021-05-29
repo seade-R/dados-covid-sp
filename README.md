@@ -1,5 +1,9 @@
 # Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo e sobre leitos e internações por Departamento Regional de Saúde
 
+## NOTA 29-05-2021
+
+Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados hoje, 29/maio.
+
 ## Apresentação e dados
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
@@ -271,6 +275,10 @@ Em razão de atualizações no sistema de organização de dados do Censo Covid,
 ####  [28.05.21]
 
 Em virtude de indisponibilidade do e-SUS Notifica, ferramenta online de registro de casos de COVID-19 do Ministério da Saúde, há uma variação atípica no número de novos casos em 28/maio.
+
+####  [29.05.21]
+
+Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados hoje, 29/maio.
 
 ## Informações adicionais
 
