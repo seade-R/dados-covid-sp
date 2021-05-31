@@ -1,8 +1,8 @@
 # Repositório de dados sobre casos e óbitos decorrentes do COVID-19 nos municípios do Estado de São Paulo e sobre leitos e internações por Departamento Regional de Saúde
 
-## NOTA 30-05-2021
+## NOTA 31-05-2021
 
-Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados nos dias 29 e 30 de Maio.
+Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados nos dias 29, 30 e 31 de Maio.
 
 ## Apresentação e dados
 
@@ -283,6 +283,10 @@ Em razão de atualizações no sistema de organização de dados do Censo Covid,
 ####  [30.05.21]
 
 Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados hoje, 30/maio.
+
+####  [31.05.21]
+
+Em razão de atualizações no sistema de organização de dados do Censo Covid, os indicadores sobre ocupação de leitos, pacientes e internações não foram disponibilizados hoje, 31/maio.
 
 ## Informações adicionais
 
