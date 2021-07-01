@@ -298,6 +298,6 @@ Atualização: diária, definida pelo horário de recebimento dos dados.
 
 Autoria: [Fundação SEADE](https://www.seade.gov.br/)
 
-Dúvidas, críticas e sugestões sobre os dados de casos e óbitos municipais: enviar e-mail para Leonardo [leonardobarone@seade.gov.br](leonardobarone@seade.gov.br) e Cássia [cassiaadduci@seade.gov.br](cassiaadduci@seade.gov.br).
+Dúvidas, críticas e sugestões sobre os dados de casos e óbitos municipais: [https://www.seade.gov.br/contato/](https://www.seade.gov.br/contato/)
 
 Por favor, pedimos a gentileza para que solicitações de dados não disponibilizados neste repositório sejam enviadas diretamente às fontes primárias.
