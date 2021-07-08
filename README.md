@@ -4,37 +4,37 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-#### Casos e óbitos 
+### Casos e óbitos 
 
 Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
 
-#### Leitos e Internações
+### Leitos e Internações
 
 Leitos e internações por Departamento Regional de Saúde segundo os critérios utilizados no Plano SP.
 
 **Série antiga (variação mensal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova.csv).
 
-**Série antiga (variaçõa semanal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
+**Série antiga (variação semanal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
 
 **Série em uso (variaçõa semanal e Grande São Paulo unificada)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv).
 
-#### SRAG
+### SRAG
 
 Hospitalizados por Síndrome Respiratória Aguda Grave (SRAG). Fonte: SIVEP-Gripe. **Download dos dados de casos de SRAG**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/SRAG_2020.csv). Última atualização: 15/06/2020
 
 Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade-R/dados-covid-sp/blob/master/data/dicionario_de_dados_srag_hospitalizado_atual-sivepgripe.pdf)
 
-#### Casos, óbitos e doenças pré-existentes
+### Casos, óbitos e doenças pré-existentes
 
 Casos e óbitos por doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv.zip).
 
-#### Casos, óbitos por raça/cor e município.
+### Casos, óbitos por raça/cor e município.
 
 Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. **Download dos dados casos, óbitos por raça/cor e município**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_raca_cor.csv.zip).
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
-#### Dicionário para o arquivo de casos e óbitos
+### Dicionário para o arquivo de casos e óbitos
 
 |Variável|Descrição|
 |---|---|
@@ -65,7 +65,7 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |longitude| Longitude|
 |semana_epidem| Semana Epidemológica|
 
-#### Dicionário para o arquivo de leitos e internações
+### Dicionário para o arquivo de leitos e internações
 
 Série antiga
 
@@ -134,7 +134,7 @@ Série nova
 |total_covid_enf_ultimos_dia| Total de Leitos de Enfermaria Destinados para COVID-19 no último dia|
 
 
-#### Dicionário para o arquivo de Casos, óbitos e doenças pré-existentes
+### Dicionário para o arquivo de Casos, óbitos e doenças pré-existentes
 
 |Variável|Descrição|
 |---|---|
@@ -159,7 +159,7 @@ Série nova
 |puerpera|Paciente se encontra nesse estágio (puérpera)|
 |sindrome_de_down|Paciente apresenta esse fator de risco (síndrome de down)|
 
-#### Casos, óbitos por raça/cor e município
+### Casos, óbitos por raça/cor e município
 
 |Variável|Descrição|
 |---|---|
