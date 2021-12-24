@@ -4,9 +4,9 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-### NOTA 23.12.21
+### NOTA 24.12.21
 
-Não houve atualização das informações de casos e óbitos nos dias 11 a 23 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+Não houve atualização das informações de casos e óbitos nos dias 11 a 24 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
 ### Casos e óbitos 
 
@@ -359,6 +359,10 @@ Não houve atualização das informações de casos e óbitos nos dias 11 a 22 d
 ### [23.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 23 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+### [24.12.21]
+
+Não houve atualização das informações de casos e óbitos nos dias 11 a 24 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
 ## Informações adicionais
 
