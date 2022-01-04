@@ -4,9 +4,9 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-### NOTA 03.01.22
+### NOTA 04.01.22
 
-Não houve atualização das informações de casos e óbitos nos dias 11 de Dezembro de 2021 a 03 de Janeiro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+Não houve atualização das informações de casos e óbitos nos dias 11 de Dezembro de 2021 a 04 de Janeiro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
 ### Casos e óbitos 
 
