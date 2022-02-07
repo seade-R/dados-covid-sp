@@ -4,6 +4,12 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+### NOTA 07.02.2022
+
+A partir de 07.02.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `dia`, `mes`, `pop_60`, `area`, `map_leg`, `map_leg_s`, `latitude`, `longitude`.
+
+As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
+
 ### Casos e óbitos 
 
 Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
@@ -40,8 +46,6 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |---|---|
 |nome_munic| Nome do município|
 |codigo_ibge| Código do município no IBGE (7 dígitos)|
-|dia| Dia|
-|mes| Mês|
 |datahora| Data no formato YYYY-MM-DD|
 |casos| Casos totais registrados até a data|
 |casos_novos| Casos novos registrados na data|
@@ -57,12 +61,6 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |nome_drs| Nome do Dpto. Regional de Saúde|
 |cod_drs| Código do Dpto. Regional de Saúde|
 |pop| População Estimada (fonte: SEADE)|
-|pop60| População acima de 60 anos (fonte: SEADE)|
-|area| Área do município em Km2|
-|map_leg| Rótulo da legenda para mapa|
-|map_leg_s| Código da legenda para mapa|
-|latitude| Latitude|
-|longitude| Longitude|
 |semana_epidem| Semana Epidemológica|
 
 ### Dicionário para o arquivo de leitos e internações
@@ -407,6 +405,12 @@ Em razão de alteração nas informações no sistema federal de notificação d
 ### [31.01.22]
 
 Em razão de alteração nas informações no sistema federal de notificação de dados de Covid-19, os dados de casos e óbitos foram alterados às 17h, após a atualização realizada hoje, 31 de Janeiro, às 14:00h.
+
+### [07.02.22]
+
+A partir de 07.02.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `dia`, `mes`, `pop_60`, `area`, `map_leg`, `map_leg_s`, `latitude`, `longitude`.
+
+As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
 
 ## Informações adicionais
 
