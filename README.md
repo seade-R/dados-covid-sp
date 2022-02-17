@@ -4,12 +4,6 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-### NOTA 07.02.2022
-
-A partir de 07.02.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `dia`, `mes`, `pop_60`, `area`, `map_leg`, `map_leg_s`, `latitude`, `longitude`.
-
-As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
-
 ### Casos e óbitos 
 
 Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
@@ -22,7 +16,7 @@ Leitos e internações por Departamento Regional de Saúde segundo os critérios
 
 **Série antiga (variação semanal)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes.csv).
 
-**Série em uso (variaçõa semanal e Grande São Paulo unificada)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv).
+**Série em uso (variação semanal e Grande São Paulo unificada)**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv).
 
 ### SRAG
 
@@ -310,103 +304,103 @@ Não houve atualização das informações de casos e óbitos no dias 11 de Deze
 
 Não houve atualização das informações de casos e óbitos nos dias 11 e 12 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [13.12.21]
+#### [13.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11, 12 e 13 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [14.12.21]
+#### [14.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11, 12, 13 e 14 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [15.12.21]
+#### [15.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 15 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [16.12.21]
+#### [16.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 16 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [17.12.21]
+#### [17.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 17 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [18.12.21]
+#### [18.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 18 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [19.12.21]
+#### [19.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 19 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [20.12.21]
+#### [20.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 20 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [21.12.21]
+#### [21.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 21 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [22.12.21]
+#### [22.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 22 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [23.12.21]
+#### [23.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 23 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [24.12.21]
+#### [24.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 24 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [25.12.21]
+#### [25.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 25 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [26.12.21]
+#### [26.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 26 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [27.12.21]
+#### [27.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 27 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [28.12.21]
+#### [28.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 28 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [29.12.21]
+#### [29.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 29 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [30.12.21]
+#### [30.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 30 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [31.12.21]
+#### [31.12.21]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 a 30 de Dezembro de 2021 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [01.01.22]
+#### [01.01.22]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 de Dezembro de 2021 a 01 de Janeiro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [02.01.22]
+#### [02.01.22]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 de Dezembro de 2021 a 02 de Janeiro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [03.01.22]
+##### [03.01.22]
 
 Não houve atualização das informações de casos e óbitos nos dias 11 de Dezembro de 2021 a 03 de Janeiro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
 
-### [28.01.22]
+#### [28.01.22]
 
 Em razão de alteração nas informações no sistema federal de notificação de dados de Covid-19, os dados de casos e óbitos foram alterados às 17h, após a atualização realizada hoje, 28 de Janeiro, às 14:00h.
 
-### [31.01.22]
+#### [31.01.22]
 
 Em razão de alteração nas informações no sistema federal de notificação de dados de Covid-19, os dados de casos e óbitos foram alterados às 17h, após a atualização realizada hoje, 31 de Janeiro, às 14:00h.
 
-### [07.02.22]
+#### [07.02.22]
 
 A partir de 07.02.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `dia`, `mes`, `pop_60`, `area`, `map_leg`, `map_leg_s`, `latitude`, `longitude`.
 
