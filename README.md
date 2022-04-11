@@ -4,6 +4,10 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+### NOTA 11.04.2022
+
+Em razão de alteração nas informações no sistema federal de notificação de dados de Covid-19, os dados de casos e óbitos foram alterados às 19h, após a atualização realizada hoje, 11 de abril, às 15h.
+
 ### Casos e óbitos 
 
 Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
@@ -405,6 +409,10 @@ Em razão de alteração nas informações no sistema federal de notificação d
 A partir de 07.02.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `dia`, `mes`, `pop_60`, `area`, `map_leg`, `map_leg_s`, `latitude`, `longitude`.
 
 As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
+
+#### [11.04.22]
+
+Em razão de alteração nas informações no sistema federal de notificação de dados de Covid-19, os dados de casos e óbitos foram alterados às 19h, após a atualização realizada hoje, 11 de abril, às 15h.
 
 ## Informações adicionais
 
