@@ -4,6 +4,12 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+### NOTA 11.07.2022
+
+A partir de 11.07.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `cod_ra`, `nome_ra`.
+
+As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
+
 ### Casos e óbitos 
 
 Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
@@ -50,8 +56,6 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |obitos_pc| Óbitos totais por 100 mil habitantes|
 |obitos_mm7d| Média móvel dos últimos 7 dias dos novos óbitos|
 |letalidade| casos / obitos|
-|nome_ra| Nome da Região Administrativa|
-|cod_ra| Código da Região Administrativa|
 |nome_drs| Nome do Dpto. Regional de Saúde|
 |cod_drs| Código do Dpto. Regional de Saúde|
 |pop| População Estimada (fonte: SEADE)|
@@ -433,6 +437,12 @@ Não houve atualização das informações de casos e óbitos nos dias 03 a 06 d
 #### [14.06.22]
 
 Não houve atualização das informações no dia 14 de Junho de 2022 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [11.07.22]
+
+A partir de 11.07.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `cod_ra`, `nome_ra`.
+
+As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
 
 ## Informações adicionais
 
