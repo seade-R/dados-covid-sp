@@ -4,9 +4,9 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-### NOTA 16.10.22
+### NOTA 20.10.22
 
-Não houve atualização das informações de casos e óbitos no dia 16 de Outubro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+Não houve atualização das informações de casos e óbitos no dia 20 de Outubro de 2022 em virtude de problemas nos sistemas de dados da Covid-19.
 
 ### Casos e óbitos 
 
@@ -457,6 +457,10 @@ Não houve atualização das informações de óbitos entre os dias 28 e 30 de S
 #### [16.10.22]
 
 Não houve atualização das informações de casos e óbitos no dia 16 de Outubro de 2022 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [20.10.22]
+
+Não houve atualização das informações de casos e óbitos no dia 20 de Outubro de 2022 em virtude de problemas nos sistemas de dados da Covid-19.
 
 ## Informações adicionais
 
