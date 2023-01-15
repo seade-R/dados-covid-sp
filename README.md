@@ -4,9 +4,9 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-### NOTA 14.01.23
+### NOTA 15.01.23
 
-Não houve atualização das informações de óbitos nos dias 10 a 14 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+Não houve atualização informações de casos e óbitos em 15 de Janeiro de 2023, e de óbitos entre 10 e 14 de Janeiro de 2023, em virtude de problemas nos sistemas de dados da Covid-19.
 
 ### Casos e óbitos 
 
@@ -507,6 +507,10 @@ Não houve atualização das informações de óbitos nos dias 10 a 13 de Janeir
 #### [14.01.23]
 
 Não houve atualização das informações de óbitos nos dias 10 a 14 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [15.01.23]
+
+Não houve atualização informações de casos e óbitos em 15 de Janeiro de 2023, e de óbitos entre 10 e 14 de Janeiro de 2023, em virtude de problemas nos sistemas de dados da Covid-19.
 
 ## Informações adicionais
 
