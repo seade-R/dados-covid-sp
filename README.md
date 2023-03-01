@@ -4,9 +4,15 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
-### NOTA 21.02.2023
+### NOTA 01.03.2023
 
-Não houve atualização das informações de casos e óbitos nos dias 20 e 21 de Fevereiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19. 
+A partir de 01.03.23, as atualizações bancos de dados completos de [casos e óbitos por municípios e data](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip); [casos, óbitos e doenças pré-existentes](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip); [casos, óbitos por raça/cor e município](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip) também serão divulgados no Repositório do SEADE.
+
+**A partir de 08.03.23, as atualizações dos arquivos anteriormente referidos não serão mais disponibilizados via GitHub, e serão disponibilizados somente via Repositório do SEADE**.
+
+A partir de 01.03.23, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `casos_pc`, `obitos_pc`, `nome_drs`, `cod_drs`.
+
+As colunas excluídas continuarão a ser publicadas no arquivo informado acima: [AQUI link para arquivo no Repositório do SEADE](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip).
 
 ### Casos e óbitos 
 
@@ -30,11 +36,11 @@ Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade
 
 ### Casos, óbitos e doenças pré-existentes
 
-Casos e óbitos por doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv.zip).
+Casos e óbitos por doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip).
 
 ### Casos, óbitos por raça/cor e município.
 
-Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. **Download dos dados casos, óbitos por raça/cor e município**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_raca_cor.csv.zip).
+Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. **Download dos dados casos, óbitos por raça/cor e município**: [FORMATO .zip](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip).
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
@@ -47,15 +53,11 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |datahora| Data no formato YYYY-MM-DD|
 |casos| Casos totais registrados até a data|
 |casos_novos| Casos novos registrados na data|
-|casos_pc| Casos totais por 100 mil habitantes|
 |casos_mm7d| Média móvel dos últimos 7 dias dos novos casos|
 |obitos| Óbitos totais registrados até a data|
 |obitos_novos| Óbitos novos registrados na data|
-|obitos_pc| Óbitos totais por 100 mil habitantes|
 |obitos_mm7d| Média móvel dos últimos 7 dias dos novos óbitos|
 |letalidade| casos / obitos|
-|nome_drs| Nome do Dpto. Regional de Saúde|
-|cod_drs| Código do Dpto. Regional de Saúde|
 |pop| População Estimada (fonte: SEADE)|
 |semana_epidem| Semana Epidemológica|
 
@@ -555,6 +557,16 @@ Não houve atualização das informações de casos e óbitos no dia 20 Fevereir
 #### [21.02.23]
 
 Não houve atualização das informações de casos e óbitos nos dias 20 e 21 de Fevereiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19. 
+
+#### [01.03.23]
+
+A partir de 01.03.23, as atualizações bancos de dados completos de [casos e óbitos por municípios e data](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip); [casos, óbitos e doenças pré-existentes](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip); [casos, óbitos por raça/cor e município](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip) também serão divulgados no Repositório do SEADE.
+
+**A partir de 08.03.23, as atualizações dos arquivos anteriormente referidos não serão mais disponibilizados via GitHub, e serão disponibilizados somente via Repositório do SEADE**.
+
+A partir de 01.03.23, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `casos_pc`, `obitos_pc`, `nome_drs`, `cod_drs`.
+
+As colunas excluídas continuarão a ser publicadas no arquivo informado acima: [AQUI link para arquivo no Repositório do SEADE](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip).
 
 ## Informações adicionais
 
