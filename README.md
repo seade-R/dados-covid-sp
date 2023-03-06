@@ -4,6 +4,10 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+### NOTA 06.03.2023
+
+Não houve atualização das informações de casos e óbitos no dia 06 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
 ### NOTA 01.03.2023
 
 A partir de 01.03.23, as atualizações bancos de dados completos de [casos e óbitos por municípios e data](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip); [casos, óbitos e doenças pré-existentes](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip); [casos, óbitos por raça/cor e município](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip) também serão divulgados no Repositório do SEADE.
@@ -567,6 +571,10 @@ A partir de 01.03.23, as atualizações bancos de dados completos de [casos e ó
 A partir de 01.03.23, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `casos_pc`, `obitos_pc`, `nome_drs`, `cod_drs`.
 
 As colunas excluídas continuarão a ser publicadas no arquivo informado acima: [AQUI link para arquivo no Repositório do SEADE](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip).
+
+#### [06.03.23]
+
+Não houve atualização das informações de casos e óbitos no dia 06 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
 
 ## Informações adicionais
 
