@@ -4,6 +4,10 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+### NOTA 15.03.2023
+
+Não houve atualização das informações de casos e óbitos no dia 15 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
 ### NOTA 10.03.2023
 
 A partir de 11 de março de 2023 os conjuntos de dados não serão atualizados nos finais de semana e feriados. Os dados não publicados serão incluídos no dia útil subsequente.
@@ -579,6 +583,10 @@ Não houve atualização das informações de casos e óbitos no dia 06 de Març
 #### [10.03.23]
 
 A partir de 11 de março de 2023 os conjuntos de dados não serão atualizados nos finais de semana e feriados. Os dados não publicados serão incluídos no dia útil subsequente.
+
+#### [15.03.23]
+
+Não houve atualização das informações de casos e óbitos no dia 15 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
 
 ## Informações adicionais
 
