@@ -588,6 +588,10 @@ Não houve atualização das informações de casos e óbitos no dia 15 de Març
 
 Não houve atualização das informações de casos e óbitos no dia 25 a 27 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
 
+#### [09.05.23]
+
+Não houve atualização das informações de casos e óbitos no dia 09 de maio de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
 
 ## Informações adicionais
 
