@@ -600,6 +600,10 @@ Não houve atualização das informações de casos e óbitos no dia 09 de maio 
 
 Não houve atualização das informações de casos e óbitos no dia 09 de maio de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
 
+#### [16.06.23]
+
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 16/06/2023.
+
 ## Informações adicionais
 
 Atualização: diária, definida pelo horário de recebimento dos dados.
