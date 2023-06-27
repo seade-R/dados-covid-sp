@@ -606,7 +606,7 @@ Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualizaç
 
 #### [23.06.23]
 
-Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 16/06/2023.
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 23/06/2023.
 
 
 ## Informações adicionais
