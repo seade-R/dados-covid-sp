@@ -613,6 +613,14 @@ Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualizaç
 
 Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 23/06/2023.
 
+
+#### [25.07.23]
+
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 23/06/2023.
+
+
+
+
 ## Informações adicionais
 
 Atualização: diária, definida pelo horário de recebimento dos dados.
