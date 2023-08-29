@@ -633,6 +633,11 @@ Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualizaç
 
 Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 24/08/2023.
 
+#### [29.08.23]
+
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 29/08/2023.
+
+
 
 ## Informações adicionais
 
