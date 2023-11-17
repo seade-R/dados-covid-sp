@@ -4,6 +4,11 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+
+### NOTA 17.11.2023
+
+A partir da semana de 19 de novembro de 2023, os conjuntos de dados passarão a ser atualizados semanalmente às quartas-feiras. Os cálculos serão ajustados para contabilizar a evolução dos casos por semana epidemiológica. Os dados serão divulgados integralmente no Repositório Seade. Para preservar o acervo histórico dos dados, o presente repositório do Github será mantido, mas não será mais atualizado. A última atualização dos dados diários será feita em 18/11/2023.
+
 ### NOTA 10.03.2023
 
 A partir de 11 de março de 2023 os conjuntos de dados não serão atualizados nos finais de semana e feriados. Os dados não publicados serão incluídos no dia útil subsequente.
@@ -611,12 +616,12 @@ Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualizaç
 
 #### [18.07.23]
 
-Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 23/06/2023.
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 18/07/2023.
 
 
 #### [25.07.23]
 
-Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 23/06/2023.
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 25/07/2023.
 
 
 #### [07.08.23]
@@ -643,15 +648,15 @@ Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualizaç
 Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 11/09/2023.
 
 
-#### [11.09.23]
+#### [14.09.23]
 
 Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 14/09/2023.
-
 
 
 #### [08.11.23]
 
-Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 14/09/2023.
+Em virtude de problemas nos sistemas de dados da Covid-19, não houve atualização das informações em 08/11/2023.
+
 
 ## Informações adicionais
 
